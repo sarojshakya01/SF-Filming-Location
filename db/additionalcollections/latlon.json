@@ -1,0 +1,474 @@
+{"_id":{"$oid":"5e9dfd9e4f857a08688250ef"},"locations":"0-100 block Halleck Street","lat_lon":"37.802543,-122.4567034"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688250f0"},"locations":"1 Urbano","lat_lon":"37.724453,-122.4656977"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688250f1"},"locations":"100 Alemany Blvd.","lat_lon":"37.7357674,-122.4120821"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688250f2"},"locations":"1000 Mason St.","lat_lon":"37.7931733,-122.4127678"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688250f3"},"locations":"101 Henry Adams Place","lat_lon":"37.7681519,-122.4056435"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688250f4"},"locations":"1018 Tennessee St.","lat_lon":"37.7589402,-122.3918457"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688250f5"},"locations":"1055 Montgomery St.","lat_lon":"37.7988964,-122.4064384"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688250f6"},"locations":"11 San Jacinto Ave.","lat_lon":"37.7352841,-122.4654102"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688250f7"},"locations":"1101 Filbert St.","lat_lon":"37.8001921,-122.4199581"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688250f8"},"locations":"1122 Folsom Street","lat_lon":"37.7763874,-122.4108872"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688250f9"},"locations":"1125 Guerrero Street","lat_lon":"37.7532132,-122.424869"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688250fa"},"locations":"1138 Alabama St","lat_lon":"37.7536742,-122.4134879"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688250fb"},"locations":"1138 Filbert Street","lat_lon":"37.8005702,-122.4204677"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688250fc"},"locations":"1153-57 Taylor Street","lat_lon":"37.7933022,-122.4152147"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688250fd"},"locations":"1155 Filbert Street at Hyde","lat_lon":"37.8001457,-122.4207229"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688250fe"},"locations":"1158-70 Montgomery Street","lat_lon":"37.7999912,-122.4061607"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688250ff"},"locations":"1167 Alabama Street","lat_lon":"37.7532837,-122.4130111"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825100"},"locations":"119 Utah","lat_lon":"37.7675235,-122.4087261"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825101"},"locations":"1227 Montgomery Street","lat_lon":"37.8004823,-122.4067277"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825102"},"locations":"1400 18th Street","lat_lon":"37.8004823,-122.4067277"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825103"},"locations":"145 9th St","lat_lon":"37.7758637,-122.4160421"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825104"},"locations":"145 Barlett St.","lat_lon":"37.7546867,-122.421772"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825105"},"locations":"1458 33rd Ave.","lat_lon":"37.7599624,-122.4938327"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825106"},"locations":"1461 Page St.","lat_lon":"37.7710528,-122.4469884"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825107"},"locations":"1465 Revere Avenue between Keith and Jennings","lat_lon":"37.7301187,-122.3900296"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825108"},"locations":"1559 Underwood Avenue between Lane and Keith","lat_lon":"37.7291891,-122.3934332"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825109"},"locations":"157 Commonwealth","lat_lon":"37.7825953,-122.4580905"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882510a"},"locations":"15th St. between Vermont and Kansas","lat_lon":"37.767291, -122.404236"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882510b"},"locations":"1601 Lane St.","lat_lon":"37.7318107,-122.3919753"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882510c"},"locations":"1627 Haight Street","lat_lon":"37.7695782,-122.4513992"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882510d"},"locations":"1641 York Street","lat_lon":"37.7473354,-122.4084518"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882510e"},"locations":"1653 Haight and 1400-1500 blocks of Haight St","lat_lon":"37.7695459,-122.4519919"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882510f"},"locations":"17th and Arkansas","lat_lon":"37.7650379,-122.4009055"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825110"},"locations":"18 Urbano","lat_lon":"37.7247245,-122.4652996"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825111"},"locations":"18th St at San Bruno Ave.","lat_lon":"37.7620649,-122.4074252"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825112"},"locations":"19 Green Street (North Beach)","lat_lon":"37.8006802,-122.4016135"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825113"},"locations":"1901 Ocean Ave. at Ashton Ave.","lat_lon":"37.7251544,-122.4646396"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825114"},"locations":"1958 Valencia St.","lat_lon":"37.7464705,-122.4223332"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825115"},"locations":"19th Ave Home","lat_lon":"37.7505216,-122.4783146"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825116"},"locations":"2 Rowland","lat_lon":"37.797749,-122.4066266"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825117"},"locations":"200 Kansas St.","lat_lon":"37.7668374,-122.4065286"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825118"},"locations":"200 Post St.","lat_lon":"37.7888082,-122.407578"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825119"},"locations":"200 block Market Street","lat_lon":"37.7932135,-122.3965596"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882511a"},"locations":"2007 Franklin Street","lat_lon":"37.7933031,-122.4271697"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882511b"},"locations":"20th & Connecticut Streets (Potrero Hill)","lat_lon":"37.7599795,-122.3994642"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882511c"},"locations":"20th & Vermont Streets (Potrero Hill)","lat_lon":"37.7595762,-122.4062146"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882511d"},"locations":"20th St and Illinois/Faxon St. and Kenwood/Glenbrook at Mt. Springs","lat_lon":"37.7605644,-122.3897781"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882511e"},"locations":"20th St between Church and Dolores St","lat_lon":"37.758169, -122.426979"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882511f"},"locations":"20th and Folsom Streets","lat_lon":"37.7589149,-122.4169085"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825120"},"locations":"2100 Green Street","lat_lon":"37.7965608,-122.4361413"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825121"},"locations":"2104 Broadway","lat_lon":"37.7949417,-122.4343228"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825122"},"locations":"2107 Union Street","lat_lon":"37.797122,-122.4362821"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825123"},"locations":"2178 Palou Ave.","lat_lon":"37.740633,-122.4037118"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825124"},"locations":"2179 48th Ave","lat_lon":"37.7455608,-122.5094281"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825125"},"locations":"225 California Street","lat_lon":"37.7931098,-122.4014558"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825126"},"locations":"22nd Ave Home","lat_lon":"37.7406622,-122.4806067"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825127"},"locations":"22nd and Carolina Streets (Potrero Hill)","lat_lon":"37.7572512,-122.4021967"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825128"},"locations":"24th Street between Mission Street and Potrero Avenue","lat_lon":"37.752748, -122.410553"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825129"},"locations":"253 4th Ave.","lat_lon":"37.7838612,-122.4648577"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882512a"},"locations":"26th Ave and El Camino Del mar","lat_lon":"37.787573,-122.488551"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882512b"},"locations":"2700 Vallejo Street (Pacific Heights)","lat_lon":"37.7946147,-122.4442091"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882512c"},"locations":"2751 Mission St","lat_lon":"37.7530814,-122.4205442"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882512d"},"locations":"2898 Broadway","lat_lon":"37.7933392,-122.4468987"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882512e"},"locations":"2915 16th St.","lat_lon":"37.7650207,-122.4201512"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882512f"},"locations":"2930 Vallejo Street","lat_lon":"37.7940849,-122.4478422"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825130"},"locations":"2934 24th St.","lat_lon":"37.752964,-122.4129005"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825131"},"locations":"2937 24th Street","lat_lon":"37.7526027,-122.4130421"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825132"},"locations":"298 11th St","lat_lon":"37.7719521,-122.4166384"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825133"},"locations":"303-305 S. Van Ness","lat_lon":"37.7734596,-122.4234903"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825134"},"locations":"3033 24th Street","lat_lon":"37.7524164,-122.4148032"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825135"},"locations":"3050 24th Street","lat_lon":"37.7527728,-122.4154005"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825136"},"locations":"3139 16th St","lat_lon":"37.7527728,-122.4154005"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825137"},"locations":"3189 16th St","lat_lon":"37.7646513,-122.425987"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825138"},"locations":"3232 Jackson Ave.","lat_lon":"37.7908904,-122.4509693"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825139"},"locations":"33 Dearborn St","lat_lon":"37.7627057,-122.4250259"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882513a"},"locations":"33 Spruce St","lat_lon":"37.790343,-122.4566001"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882513b"},"locations":"330 Santa Clara Ave.","lat_lon":"37.7342745,-122.4687492"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882513c"},"locations":"3355 Geary Blvd.","lat_lon":"37.7811289,-122.457028"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882513d"},"locations":"350 Santa Ana Ave.","lat_lon":"37.7306157,-122.470474"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882513e"},"locations":"3563 20th St.","lat_lon":"37.7584658,-122.4225877"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882513f"},"locations":"3639 Taraval St","lat_lon":"37.7415816,-122.5075622"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825140"},"locations":"386 4th Ave","lat_lon":"37.7814923,-122.4641986"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825141"},"locations":"387 Fair Oaks at 25th Street","lat_lon":"37.7506189,-122.4257981"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825142"},"locations":"3rd Street between Market & Harrison","lat_lon":"37.784973, -122.400497"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825143"},"locations":"40 Prentiss Street","lat_lon":"37.7420927,-122.414293"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825144"},"locations":"420 Jones St. at Ellis St.","lat_lon":"37.7852084,-122.4149117"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825145"},"locations":"420 Mason St.","lat_lon":"37.787592,-122.4117943"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825146"},"locations":"490 Geary St","lat_lon":"37.787126,-122.4135863"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825147"},"locations":"500 Cortland Avenue","lat_lon":"37.7388604,-122.4183213"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825148"},"locations":"544 Jones","lat_lon":"37.7863395,-122.4152937"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825149"},"locations":"5546 Geary Ave","lat_lon":"37.7805902,-122.4813402"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882514a"},"locations":"555 Market St.","lat_lon":"37.790152,-122.3999811"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882514b"},"locations":"60 Leavenworth St.","lat_lon":"37.7811749,-122.4157411"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882514c"},"locations":"60 Potomac","lat_lon":"37.7701921,-122.4346353"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882514d"},"locations":"600 Niagara Ave","lat_lon":"37.720369,-122.4515001"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882514e"},"locations":"601 Buena Vista Ave West at Java St.","lat_lon":"37.7669252,-122.4462213"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882514f"},"locations":"628 Cole Street","lat_lon":"37.7692302,-122.4526212"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825150"},"locations":"66 Danton St","lat_lon":"37.7313092,-122.4348233"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825151"},"locations":"66 Potomac","lat_lon":"37.7703097,-122.4346463"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825152"},"locations":"679 Madrid St","lat_lon":"37.7187499,-122.4369172"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825153"},"locations":"68 Dublin St","lat_lon":"37.7188455,-122.4285572"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825154"},"locations":"700 Block of Grant Ave.","lat_lon":"37.7934972,-122.4082055"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825155"},"locations":"717 Grant Ave","lat_lon":"37.7936586,-122.4085862"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825156"},"locations":"812 22nd St. and Tennessee","lat_lon":"37.7563253,-122.3913643"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825157"},"locations":"82 & 67 Rico Way (Marina District)","lat_lon":"37.8050316,-122.441963"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825158"},"locations":"850 Bryant- 6th floor County Jail","lat_lon":"37.7759216,-122.4065286"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825159"},"locations":"878-898 Chestnut St.","lat_lon":"37.8022295,-122.4274728"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882515a"},"locations":"901/909Tennessee St.","lat_lon":"37.7563253,-122.3913643"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882515b"},"locations":"Coit Tower","lat_lon":"37.8023991,-122.4080109"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882515c"},"locations":"Epic Roasthouse (399 Embarcadero)","lat_lon":"37.7905489,-122.3896194"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882515d"},"locations":"Haight at Masonic","lat_lon":"37.7702276,-122.4475563"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882515e"},"locations":"Bush St at Mason St","lat_lon":"37.7899652,-122.4126468"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882515f"},"locations":"Bush and Sansome St.","lat_lon":"37.7911916,-122.4029712"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825160"},"locations":"Castle Street @ Green Street","lat_lon":"37.8004589,-122.4073525"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825161"},"locations":"Castro Theatre, 429 Castro St.","lat_lon":"37.7620375,-122.4369478"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825162"},"locations":"Fairmont Hotel (950 Mason Street, Nob Hill)","lat_lon":"37.791544, -122.410854"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825163"},"locations":"Haight St at Ashbury St","lat_lon":"37.7700254,-122.4491504"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825164"},"locations":"Haight St at Masonic","lat_lon":"37.7702276,-122.4475563"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825165"},"locations":"Filbert St at Stockton St","lat_lon":"37.8013826,-122.4115848"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825166"},"locations":"Justin Herman Plaza","lat_lon":"37.7950038,-122.3956595"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825167"},"locations":"Kearney Street (Telegraph Hill)","lat_lon":"37.7975634,-122.4076255"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825168"},"locations":"Waverly Place","lat_lon":"37.794213,-122.4090384"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825169"},"locations":"Way Faire Inn on Leidesdorff","lat_lon":"37.7934577,-122.4042757"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882516a"},"locations":"Webster Street","lat_lon":"37.7878192,-122.4341369"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882516b"},"locations":"West Chrissy Field (Presidio, Golden Gate National Recreation Area)","lat_lon":"37.8480401,-122.531715"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882516c"},"locations":"Westar Marine Services, Pier 50","lat_lon":"37.7741499,-122.386682"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882516d"},"locations":"Westin St. Francis","lat_lon":"37.7876222,-122.4109769"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882516e"},"locations":"Westin St. Francis Hotel (335 Powell Street)","lat_lon":"37.7877647,-122.4094544"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882516f"},"locations":"William Stout Architectural Books, 804 Montgomery St.","lat_lon":"37.7966403,-122.4055048"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825170"},"locations":"Wisconsin between 19th and 20th St","lat_lon":"37.760306, -122.399266"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825171"},"locations":"YWCA, 940 Powell","lat_lon":"37.7934961,-122.4114541"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825172"},"locations":"Yerba Buena Center for the Arts","lat_lon":"37.7856479,-122.4043791"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825173"},"locations":"de Young Museum/Golden Gate Park","lat_lon":"37.7714732,-122.4708642"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825174"},"locations":"Mason & California Streets (Nob Hill)","lat_lon":"37.7918463,-122.4130315"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825175"},"locations":"Polk & Larkin Streets","lat_lon":"37.791635, -122.420027"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825176"},"locations":"Terry A. Francois Blvd.","lat_lon":"37.7704332,-122.3886264"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825177"},"locations":"Texas St at 19th St","lat_lon":"37.761375,-122.3976553"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825178"},"locations":"The Drew School, 2901 California","lat_lon":"37.7876422,-122.4445407"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825179"},"locations":"The Embarcadero/ Ferry Building","lat_lon":"37.7958421,-122.3959688"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882517a"},"locations":"The Lexington Club (3464 19th Street at Lexington)","lat_lon":"37.7602826,-122.4229776"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882517b"},"locations":"The Malloch Apartment Building (1360 Montgomery Street)","lat_lon":"37.8017826,-122.4065895"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882517c"},"locations":"The San Francisco School (300 Gavin St.)","lat_lon":"37.7327859,-122.4135421"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882517d"},"locations":"The Walden House, Buena Vista Park","lat_lon":"37.7684088,-122.4436032"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882517e"},"locations":"Tosca Café (242 Columbus Avenue)","lat_lon":"37.8011406,-122.4136446"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882517f"},"locations":"Tosca Café (242 Columbus Avenue, North Beach)","lat_lon":"37.801635,-122.4129335"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825180"},"locations":"Transbay Terminal (Mission Street at 1st Street)","lat_lon":"37.7899142,-122.3949045"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825181"},"locations":"Trax Bar, Haight St","lat_lon":"37.7700042,-122.4482998"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825182"},"locations":"Treasure Island, Building #1, Ave of the Palms","lat_lon":"37.8172223,-122.3728924"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825183"},"locations":"UCSF Mt Zion 1600 Divisadero","lat_lon":"37.7855251,-122.4411813"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825184"},"locations":"Union St at Leavenworth St","lat_lon":"37.7994213,-122.4196218"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825185"},"locations":"Vaillancourt Fountain (Justin Herman Plaza)","lat_lon":"37.795487,-122.397547"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825186"},"locations":"Variety Preview Room (582 Market St.)","lat_lon":"37.7894681,-122.4038097"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825187"},"locations":"Washington Square, North Beach","lat_lon":"37.8008375,-122.4121887"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825188"},"locations":"State Garage, 818 Leavenworth","lat_lon":"37.7887882,-122.417104"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825189"},"locations":"Steiner St at Fulton St","lat_lon":"37.7775088,-122.4354376"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882518a"},"locations":"Steinhart Aquarium (California Academy of Sciences, Golden Gate Park)","lat_lon":"37.767992,-122.484944"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882518b"},"locations":"Sutter St at Taylor St","lat_lon":"37.7888137,-122.414097"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882518c"},"locations":"Taylor & Green St.","lat_lon":"37.798981,-122.4161569"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882518d"},"locations":"San Remo Hotel (2237 Mason)","lat_lon":"37.7040224,-122.1448418"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882518e"},"locations":"St. Francis Episcopal Church (399 San Fernando Way)","lat_lon":"37.7303218,-122.4720025"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882518f"},"locations":"St. Mary's Square Park","lat_lon":"37.7921715,-122.4068301"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825190"},"locations":"St. Peter & Paul's Church (666 Filbert Street, Washington Square)","lat_lon":"37.8014083,-122.412351"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825191"},"locations":"Taylor and Jefferson Streets (Fisherman's Wharf)","lat_lon":"37.8082256,-122.4179968"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825192"},"locations":"Telegraph Hill Blvd (Telegraph Hill)","lat_lon":"37.8027904,-122.4082374"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825193"},"locations":"Telegraph Hill/North Beach","lat_lon":"37.8027385,-122.423314"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825194"},"locations":"Ellis and Jones St.","lat_lon":"37.7848792,-122.414995"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825195"},"locations":"Embarcadero around Rincon Park","lat_lon":"37.7915717,-122.3921311"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825196"},"locations":"Embarcadero at Lombard St.","lat_lon":"37.8041942,-122.404458"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825197"},"locations":"Embarcadero at Vallejo St.","lat_lon":"37.7967821,-122.4251649"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825198"},"locations":"Fulton St at Larkin St","lat_lon":"37.7795982,-122.4190164"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825199"},"locations":"Rainforest Café (145 Jefferson Street)","lat_lon":"37.8077042,-122.4177416"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882519a"},"locations":"Raw Hide II (280 Seventh Street)","lat_lon":"37.7768513,-122.4107102"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882519b"},"locations":"Romolo Place @ Fresno St.","lat_lon":"37.7986055,-122.4085852"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882519c"},"locations":"Agua Vista Park at Mission Rock, 817 Terry A Francois Blvd.","lat_lon":"37.7661709,-122.3884246"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882519d"},"locations":"Andronico's, 1200 Irving Street","lat_lon":"37.7641516,-122.4733408"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882519e"},"locations":"Another Café, 1191 Pine St at Leavenworth","lat_lon":"37.7901871,-122.4176339"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882519f"},"locations":"Aquatic Park (Jefferson Street)","lat_lon":"37.8063859,-122.4257195"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251a0"},"locations":"Bank of America Building (555 California Street)","lat_lon":"37.7920028,-122.4057554"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251a1"},"locations":"Bayshore Blvd near Cesar Chavez (Bayview)","lat_lon":"37.7497296,-122.3945042"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251a2"},"locations":"Bayview Police Station, 201 Williams Ave.","lat_lon":"37.7298321,-122.3999048"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251a3"},"locations":"Bentley Reserve, 301 Battery Street","lat_lon":"37.794432,-122.4028554"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251a4"},"locations":"Betelnut restaurant, 2030 Union St.","lat_lon":"37.7975914,-122.4348506,17"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251a5"},"locations":"Bix Restaurant (56 Gold Street)","lat_lon":"37.7968754,-122.4051185"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251a6"},"locations":"Blue Danube Café, 306 Clement","lat_lon":"37.7831695,-122.4647485"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251a7"},"locations":"Broadway (North Beach)","lat_lon":"37.7979,-122.4087299"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251a8"},"locations":"Broadway between Powell and Davis","lat_lon":"37.798026,-122.4053064"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251a9"},"locations":"Broadway from Mason to Taylor","lat_lon":"37.7970915,-122.4135596"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251aa"},"locations":"Broadway, Between Franklin & Laguna Streets","lat_lon":"37.7952442,-122.4296757"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251ab"},"locations":"Brocklebank Apartments (1000 Mason Street)","lat_lon":"37.7931733,-122.4127678"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251ac"},"locations":"Broderick from Fulton to McAlister","lat_lon":"37.7771838,-122.4422049"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251ad"},"locations":"Buena Vista betweeen Upper Terrace and Java St.","lat_lon":"37.766441,-122.4437716"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251ae"},"locations":"Building 924, Presidio (Golden Gate National Recreation Area)","lat_lon":"37.8480401,-122.531715"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251af"},"locations":"Burger Island (901 3rd Street, China Basin)","lat_lon":"37.7776141,-122.3917602"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251b0"},"locations":"Café Cantata (2040 Union Street)","lat_lon":"37.7974812,-122.4332091"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251b1"},"locations":"Café Trieste (609 Vallejo)","lat_lon":"37.7986417,-122.4095026"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251b2"},"locations":"California & Powell","lat_lon":"37.7920536,-122.4113724"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251b3"},"locations":"California @ Montgomery","lat_lon":"37.78941,-122.4033004"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251b4"},"locations":"California Academy of Sciences (Golden Gate Park)","lat_lon":"37.7698646,-122.4682834"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251b5"},"locations":"California Hall (625 Polk Street, Van Ness/Civic Center)","lat_lon":"37.7823142,-122.4213218"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251b6"},"locations":"California St btwn Mason and Leavenworth","lat_lon":"37.7915196,-122.4146887"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251b7"},"locations":"California St from Mason to Kearny","lat_lon":"37.7949954,-122.4099067"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251b8"},"locations":"California and Jones St.","lat_lon":"37.7914327,-122.4163048"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251b9"},"locations":"California between Kearney and Davis","lat_lon":"37.7930792,-122.4017665"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251ba"},"locations":"California between Mason and Taylor St","lat_lon":"37.7917404,-122.4123334"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251bb"},"locations":"Candlestick Park Exit, Highway 101","lat_lon":"37.7099587,-122.3990566"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251bc"},"locations":"Castro Theatre (429 Castro Street, The Castro)","lat_lon":"37.7620333,-122.4369478"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251bd"},"locations":"Center for the Arts, Yerba Buena Gardens (701 Mission Street)","lat_lon":"37.7856305,-122.4040787"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251be"},"locations":"Central St between Haight and Page St","lat_lon":"37.7709462,-122.4459687"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251bf"},"locations":"Cesar Chavez & Mission Street (Mission)","lat_lon":"37.7480586,-122.4196812"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251c0"},"locations":"Chambord Apartments (1298 Sacramento Street at Jones)","lat_lon":"37.7925069,-122.4147311"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251c1"},"locations":"Chaya / Perry's 132 Embarcadero","lat_lon":"37.793057,-122.3924849"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251c2"},"locations":"Chestnut St. from Larkin to Columbus","lat_lon":"37.7996813,-122.418545"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251c3"},"locations":"Cliff House (1090 Point Lobos Avenue)","lat_lon":"37.7785112,-122.5161695"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251c4"},"locations":"Cliffhouse, 1090 Point Lobos Ave.","lat_lon":"37.7785112,-122.5161695"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251c5"},"locations":"Coi Restaurant (373 Broadway)","lat_lon":"37.7980566,-122.4055993"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251c6"},"locations":"Columbus & Lombard Streets (North Beach)","lat_lon":"37.8025797,-122.4141732"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251c7"},"locations":"Columbus & Pacific Ave","lat_lon":"37.797088,-122.4077473"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251c8"},"locations":"Columbus between Bay and Washington","lat_lon":"37.8003512,-122.4124367"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251c9"},"locations":"Columbus between Filbert and Lombard St","lat_lon":"37.8019603,-122.4143071"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251ca"},"locations":"Conzelman Rd at McCollough Rd and down Conzelman Rd.","lat_lon":"37.8336013,-122.4948321"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251cb"},"locations":"Curran Theater (445 Geary Street)","lat_lon":"37.7869708,-122.4127558"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251cc"},"locations":"Dante Building (1606 Stockton Street at Union)","lat_lon":"37.8006416,-122.4112832"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251cd"},"locations":"Department of Public Health (101 Grove Street at Polk, Civic Center)","lat_lon":"37.777863,-122.4189494"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251ce"},"locations":"Divisadero between Broadway and Greenwich","lat_lon":"37.795745,-122.4441191"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251cf"},"locations":"Driving around Taylor/Pacific/Leavenworth","lat_lon":"37.7953944,-122.417614"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251d0"},"locations":"Driving various SF Streets","lat_lon":"37.7748604,-122.4118255"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251d1"},"locations":"Duboce St., Duboce Café","lat_lon":"37.7692125,-122.4337231"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251d2"},"locations":"Duboce between Buena Vista East and Alpine St","lat_lon":"37.7690488,-122.4389699"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251d3"},"locations":"Elbo Room (647 Valencia Street)","lat_lon":"37.7901494,-122.3927379"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251d4"},"locations":"Ellis Food Center, 398 Ellis","lat_lon":"37.7849979,-122.4148721"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251d5"},"locations":"Embarcadero between Bay and Chestnut St","lat_lon":"37.8058988,-122.406062"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251d6"},"locations":"Embarcadero between Harrison and Folsom St","lat_lon":"37.7901192,-122.3904808"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251d7"},"locations":"Embarcadero between Market to Fillmore St","lat_lon":"37.7998812,-122.4006497"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251d8"},"locations":"Enrico's Café (504 Broadway)","lat_lon":"37.7981375,-122.4059057"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251d9"},"locations":"Fairmont Hotel - Penthouse Suite","lat_lon":"37.7923043,-122.410078"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251da"},"locations":"Filbert & Taylor Streets (Russian Hill)","lat_lon":"37.8007601,-122.4165157"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251db"},"locations":"Filbert St. & Leavenworth","lat_lon":"37.8003487,-122.4198256"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251dc"},"locations":"Filbert St. from Hyde to Leavenworth","lat_lon":"37.8003487,-122.4176369"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251dd"},"locations":"Filbert St. from Jones to Mason","lat_lon":"37.8009656,-122.4128015"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251de"},"locations":"Filbert Steps, Filbert Street","lat_lon":"37.8021475,-122.4035391"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251df"},"locations":"Foreign Cinema (2534 Mission)","lat_lon":"37.7563872,-122.4201868"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251e0"},"locations":"Fort Point (Presidio, Golden Gate National Recreation Area)","lat_lon":"37.820722,-122.4904672"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251e1"},"locations":"Francisco St from Larkin to Polk","lat_lon":"37.8035283,-122.4216499"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251e2"},"locations":"Gabbiano's Restaurant (Ferry Building)","lat_lon":"37.7958807,-122.3937799"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251e3"},"locations":"Geary St - Hyde St - Ellis St","lat_lon":"37.7844584,-122.4182846"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251e4"},"locations":"Gibb Street (Chinatown)","lat_lon":"37.795228,-122.405126"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251e5"},"locations":"Golden Dragon Restaurant (816 Washington Street at Grant)","lat_lon":"37.7951894,-122.409115"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251e6"},"locations":"Gough Street & Clay Street","lat_lon":"37.7917696,-122.4281903"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251e7"},"locations":"Grace Cathedral Episcopal Church (1100 California Street)","lat_lon":"37.7919185,-122.4152148"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251e8"},"locations":"Grant & Washington St.","lat_lon":"37.7951521,-122.4086789"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251e9"},"locations":"Grant between Bush and Broadway","lat_lon":"37.7941909,-122.4072556"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251ea"},"locations":"Grant between Union and Green","lat_lon":"37.8002562,-122.4096947"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251eb"},"locations":"Green St. & Grant Ave.","lat_lon":"37.7997122,-122.4096042"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251ec"},"locations":"Green Valley Restaurant (510 Green Street Near Grant)","lat_lon":"37.7997753,-122.4082391"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251ed"},"locations":"Haight between Central and Ashbury St","lat_lon":"37.7700212,-122.4469617"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251ee"},"locations":"Hall of Justice (850 Bryant Street)","lat_lon":"37.7751502,-122.4061888"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251ef"},"locations":"Harvey Milk Rec Center, 50 Scott St.","lat_lon":"37.7696069,-122.436947"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251f0"},"locations":"Heart of the City Farmers Market at UN Plaza","lat_lon":"37.7798241,-122.4168502"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251f1"},"locations":"Heron @ Berwick (off 8th and Harrison St)","lat_lon":"37.7748001,-122.4088972"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251f2"},"locations":"Heron and Berwick Alleys","lat_lon":"37.7747871,-122.4088942"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251f3"},"locations":"Hills Brothers Plaza (Embarcadero at Harrison Street)","lat_lon":"37.7895046,-122.3899834"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251f4"},"locations":"Holiday Inn Select Downtown Hotel (750 Kearney Street)","lat_lon":"37.7952638,-122.4045148"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251f5"},"locations":"Hooker Alley Garden on Mason between Bush & Pine","lat_lon":"37.7902468,-122.4114196"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251f6"},"locations":"Huntington Park (California & Taylor Streets, Nob Hill)","lat_lon":"37.79218,-122.4143687"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251f7"},"locations":"Hyde Street & Lombard Street","lat_lon":"37.8020026,-122.4218348"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251f8"},"locations":"Ina Coolbrith Park (1700 Taylor Street)","lat_lon":"37.7982745,-122.4156479"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251f9"},"locations":"Intersection of Broadway at Kearney","lat_lon":"37.7980142,-122.4077377"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251fa"},"locations":"Intersection of California at Polk","lat_lon":"37.7905922,-122.4228764"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251fb"},"locations":"Intersection of York & Peralta (Bernal Heights)","lat_lon":"37.747445, -122.407270"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251fc"},"locations":"Jackson St. at Spruce","lat_lon":"37.7899861,-122.4563239"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251fd"},"locations":"Jefferson St at Taylor St","lat_lon":"37.8082214,-122.4179968"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251fe"},"locations":"John Muir Drive (Lake Merced)","lat_lon":"37.7165274,-122.4977952"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688251ff"},"locations":"John Shelley Drive John McLaren Park","lat_lon":"37.7223266,-122.4204317"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825200"},"locations":"John St. between Powell and Mason","lat_lon":"37.795987, -122.410560"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825201"},"locations":"Jonell's Bar, 401 Ellis","lat_lon":"37.7847543,-122.415103"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825202"},"locations":"Jones & Pacific","lat_lon":"37.7931397,-122.4184887"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825203"},"locations":"Jones St btwn Green and Pacific","lat_lon":"37.7972722,-122.4174867"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825204"},"locations":"Jones St btwn Sacramento and Pine","lat_lon":"37.791417, -122.414109"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825205"},"locations":"Kearny btwn Columbus and Washington","lat_lon":"37.7960751,-122.4056852"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825206"},"locations":"Kennedy Hotel (226 Embarcadero at Howard Street)","lat_lon":"37.7916753,-122.3910653"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825207"},"locations":"Kezar Stadium, Golden Gate Park","lat_lon":"37.7669182,-122.4582895"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825208"},"locations":"La Rondalla (Valencia and 20th Streets)","lat_lon":"37.7586028,-122.4218226"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825209"},"locations":"Laguna Honda Hospital, 375 Laguna Honda Blvd.","lat_lon":"37.7490613,-122.4590734"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882520a"},"locations":"Laguna Honda Hospital; 375 Laguna Honda Blvd.","lat_lon":"37.7490613,-122.4590734"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882520b"},"locations":"Laguna St btwn Jackson and Broadway","lat_lon":"37.7939402,-122.4320327"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882520c"},"locations":"Lands End Trail at Eagles Point/ Lincoln Park Golf Course","lat_lon":"37.7867005,-122.4970188"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882520d"},"locations":"Larkin & Chestnut Streets (Russian Hill)","lat_lon":"37.8027281,-122.4236329"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882520e"},"locations":"Larkin & Francisco Streets (Russian Hill)","lat_lon":"37.8035802,-122.423996"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882520f"},"locations":"Larkin & Hyde Streets","lat_lon":"37.7927452,-122.4206647"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825210"},"locations":"Leavenworth St at Lombard St","lat_lon":"37.8022076,-122.4201872"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825211"},"locations":"Leavenworth from Filbert & Francisco St","lat_lon":"37.79369,-122.4274763"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825212"},"locations":"Lefty O' Doul Drawbridge/ 3rd Street Bridge (3rd Street, China Basin)","lat_lon":"37.7765425,-122.3923212"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825213"},"locations":"Legion of Honor, 100 34th Ave","lat_lon":"37.7844661,-122.5030306"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825214"},"locations":"Li Po (916 Grant Avenue at Washington, Chinatown)","lat_lon":"37.7954314,-122.4084268"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825215"},"locations":"Little Embarcadero btwn Powell and Mason","lat_lon":"37.806038,-122.4136615,17"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825216"},"locations":"Lombard & Hyde","lat_lon":"37.8020026,-122.4218348"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825217"},"locations":"Lombard St between Hyde and Larkin St","lat_lon":"37.8019182,-122.4226397"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825218"},"locations":"Lombard St between Leavenworth and Hyde St","lat_lon":"37.8017487,-122.4224251"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825219"},"locations":"Lombard St btwn Polk and Leavenworth","lat_lon":"37.8019262,-122.4225427"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882521a"},"locations":"Lyon at Chestnut St.","lat_lon":"37.7982366,-122.448126"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882521b"},"locations":"Maiden Lane between Kearny and Grant","lat_lon":"37.788349, -122.404417"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882521c"},"locations":"Mansell & University Streets (Visitacion  Valley)","lat_lon":"37.7190674,-122.4131967"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882521d"},"locations":"Marina Blvd between Baker and Fillmore St","lat_lon":"37.8057861,-122.4446745"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882521e"},"locations":"Marina Blvd from Laguna to Baker","lat_lon":"37.8009932,-122.4466321"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882521f"},"locations":"Marina Green (Marina District)","lat_lon":"37.806723,-122.4416661"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825220"},"locations":"Marina Green, Marina District","lat_lon":"37.806723,-122.4416661"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825221"},"locations":"Mario's Bohemian Cigar Store (Washington Square)","lat_lon":"37.8002499,-122.411969"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825222"},"locations":"Mario's Café, 566 Columbus","lat_lon":"37.7999939,-122.4110828"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825223"},"locations":"Mark Hopkins Hotel (999 California Street)","lat_lon":"37.7915528,-122.4125811"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825224"},"locations":"Mark Hopkins Intercontinental Hotel (1 Nob Hill Circle)","lat_lon":"37.7905344,-122.4170508"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825225"},"locations":"Market & Steuart Streets (Financial District)","lat_lon":"37.7944659,-122.3969878"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825226"},"locations":"Market St at Embarcadero","lat_lon":"37.7928315,-122.3982891"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825227"},"locations":"Market Street (from 6th- 4th Streets)","lat_lon":"37.783889,-122.4104424"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825228"},"locations":"Market between Stuart and Van Ness","lat_lon":"37.7856502,-122.4082177"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825229"},"locations":"Marriott Marquis, 780 Mission Street","lat_lon":"37.7853063,-122.4064424"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882522a"},"locations":"Mason Street @ Vallejo","lat_lon":"37.798175,-122.4143117"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882522b"},"locations":"Mason and Pacific","lat_lon":"37.796296,-122.4139313"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882522c"},"locations":"Mason between Sacramento and California St","lat_lon":"37.7923302,-122.4131277"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882522d"},"locations":"McAllister between Leavenworth and Hyde","lat_lon":"37.7808207,-122.4152881"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882522e"},"locations":"McLaren Park (Visitacion  Valley)","lat_lon":"37.7192874,-122.4205042"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882522f"},"locations":"Mel's Drive-In (Corner of Van Ness & Mission Street, Mission District)","lat_lon":"37.7831504,-122.4063929"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825230"},"locations":"Miraloma Mall at Portola Frontage Road","lat_lon":"37.7405321,-122.4601732"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825231"},"locations":"Mission Dolores (3321 16th Street, Mission District)","lat_lon":"37.7641009,-122.4277584"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825232"},"locations":"Mission Dolores Park (Mission District)","lat_lon":"37.7595861,-122.429097"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825233"},"locations":"Mission Dolores Park (Mission District) via J-Church MUNI Train","lat_lon":"37.7591416,-122.4298866"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825234"},"locations":"Missouri St at 18th St","lat_lon":"37.762585,-122.398741"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825235"},"locations":"Montgomery & Market Streets","lat_lon":"37.7888235,-122.4041786"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825236"},"locations":"Montgomery between Pacific and Broadway","lat_lon":"37.797779,-122.4052879"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825237"},"locations":"Montgomery btwn Broadway and Pacific","lat_lon":"37.797801,-122.4059539"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825238"},"locations":"Montgomery btwn Green and Pacific","lat_lon":"37.798784,-122.4061687"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825239"},"locations":"Montgomery/Green","lat_lon":"37.800082,-122.4064477"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882523a"},"locations":"Moose's Restaurant (1652 Stockton)","lat_lon":"37.8003046,-122.4090124"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882523b"},"locations":"Mt. Davidson Cross, Mt. Davidson","lat_lon":"37.7383315,-122.4708429"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882523c"},"locations":"North Beach Video (1398 Grant Avenue at Green)","lat_lon":"37.7997781,-122.4094739"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882523d"},"locations":"Ocean Beach at Lincoln","lat_lon":"37.6846523,-122.3479414"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882523e"},"locations":"Ohloff Recovery Center (601 Steiner St)","lat_lon":"37.7748567,-122.4351992"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882523f"},"locations":"Olympic Flame Café, 555 Geary St","lat_lon":"37.7867063,-122.4145709"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825240"},"locations":"Pacific & Divisadero","lat_lon":"37.7925186,-122.4435487"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825241"},"locations":"Palace of Fine Arts (3301 Lyon Street)","lat_lon":"37.8020485,-122.4484604"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825242"},"locations":"Pay and Save Grocery, 599 Guerrero St","lat_lon":"37.7616945,-122.4258201"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825243"},"locations":"Pier 43 1/2","lat_lon":"37.8090064,-122.415062"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825244"},"locations":"Pier 45 - Jeremiah O'Brien Liberty Ship","lat_lon":"37.8107973,-122.4187025"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825245"},"locations":"Pier 45 - Musee Mechanique","lat_lon":"37.8093037,-122.4181571"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825246"},"locations":"Pier 50- end of the pier","lat_lon":"37.7738221,-122.3865327"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825247"},"locations":"Pier 7 (The Embarcadero)","lat_lon":"37.7986599,-122.399004"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825248"},"locations":"Pine St. & Grant","lat_lon":"37.7915062,-122.4079505"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825249"},"locations":"Pine between Kearney and Davis","lat_lon":"37.7921397,-122.4015346"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882524a"},"locations":"Plate Shots SF streets various","lat_lon":"37.779275,-122.4214304"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882524b"},"locations":"Portsmouth Square (Chinatown)","lat_lon":"37.7948082,-122.4072842"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882524c"},"locations":"Postcard Row, Alamo Square, Hayes Valley","lat_lon":"37.7760238,-122.4340056"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882524d"},"locations":"Potomac and Waller","lat_lon":"37.7708733,-122.4349393"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882524e"},"locations":"Powell & California Streets","lat_lon":"37.7920578,-122.4113724"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882524f"},"locations":"Powell St btwn North Point and Embarcadero","lat_lon":"37.807702,-122.4145517"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825250"},"locations":"Powell from Bush and Sutter","lat_lon":"37.7900744,-122.4098659"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825251"},"locations":"Presidio Heights Neighborhood","lat_lon":"37.787546,-122.4469717"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825252"},"locations":"Presidio Heights Neighborhood ","lat_lon":"37.786835,-122.4633957"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825253"},"locations":"Private alley along 20th St. between Tennessee and Minnesota","lat_lon":"37.760369,-122.3907362"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825254"},"locations":"Punjab Café, 838 24th St.","lat_lon":"37.7539298,-122.3874839"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825255"},"locations":"Roxie Theater (3117 16th St.)","lat_lon":"37.7646242,-122.4246137"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825256"},"locations":"Royan Hotel (405 Valencia Street, Mission District)","lat_lon":"37.7664227,-122.4240563"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825257"},"locations":"SF General Hospital Center (1001 Potrero Avenue, Potrero Hill)","lat_lon":"37.7561838,-122.4071912"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825258"},"locations":"SFO International Airport Terminal 3","lat_lon":"37.61993,-122.3896828"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825259"},"locations":"Sacramento St., Between Pierce & Broderick Streets","lat_lon":"37.789118,-122.4406694"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882525a"},"locations":"Sacramento St., Between Pierce & Broderick Streets ","lat_lon":"37.789118,-122.4406694"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882525b"},"locations":"Sacramento between Mason and Taylor St","lat_lon":"37.792677,-122.4129013"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882525c"},"locations":"Saint Louis Alley at Jackson","lat_lon":"37.7959845,-122.4093025"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882525d"},"locations":"Saints Peter & Paul Church","lat_lon":"37.8014083,-122.412351"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882525e"},"locations":"San Francisco Art Institute, 800 Chestnut","lat_lon":"37.8038594,-122.4194048"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882525f"},"locations":"San Francisco Chronicle (901 Mission Street at 15th Street)","lat_lon":"37.782205,-122.4087094"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825260"},"locations":"San Francisco Drydock (20th and Illinois Streets)","lat_lon":"37.7606016,-122.3875158"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825261"},"locations":"San Francisco Public Library Main Branch (100 Larkin Street)","lat_lon":"37.7790861,-122.4179848"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825262"},"locations":"Scott St between Jackson and Clay St","lat_lon":"37.790962,-122.4408237"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825263"},"locations":"Sound Factory (1st and Harrison Streets)","lat_lon":"37.7831581,-122.3945266"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825264"},"locations":"South Park (Between 2nd and 3rd Streets, Brannan and Bryant Streets)","lat_lon":"37.7804921,-122.394981"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825265"},"locations":"Southern Pacific Memorial Hospital (1400 Fell Street)","lat_lon":"37.7732855,-122.4429914"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825266"},"locations":"Spofford between Clay and Washington","lat_lon":"37.794686,-122.408191"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825267"},"locations":"Steiner St between Jackson and Clay St","lat_lon":"37.79139,-122.4375373"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825268"},"locations":"Sutter Stockton Garage, 444 Stockton","lat_lon":"37.7902231,-122.4086832"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825269"},"locations":"Taylor & Vallejo Streets (Russian Hill)","lat_lon":"37.7980069,-122.415326"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882526a"},"locations":"Taylor St, north of Jefferson St to end","lat_lon":"37.8089625,-122.4158594"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882526b"},"locations":"Taylor St. from Broadway to Filbert","lat_lon":"37.7993016,-122.4142479"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882526c"},"locations":"Trolley Car from Market and 11th","lat_lon":"37.7756021,-122.4209308"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882526d"},"locations":"Turk Street between Mason & Leavenworth","lat_lon":"37.783172,-122.4126501"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882526e"},"locations":"UN Plaza/ Civic Center Bart steps","lat_lon":"37.7798303,-122.4160962"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882526f"},"locations":"Vallejo St btwn Montgomery and Davis","lat_lon":"37.799518,-122.4024287"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825270"},"locations":"Waller St between Masonic and Del Mar St","lat_lon":"37.769248,-122.4468899"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825271"},"locations":"Warren's Antiques, 375 9th St.","lat_lon":"37.7729613,-122.4125815"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825272"},"locations":"Washington Square Park (Filbert, between Stockton and Powell)","lat_lon":"37.8008333,-122.4121887"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825273"},"locations":"Waverly Pl between Washington and Sacramento","lat_lon":"37.7943622,-122.4069255"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825274"},"locations":"Randall Museum","lat_lon":"37.7653028,-122.4406212"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825275"},"locations":"Real Guitars","lat_lon":"37.7734127,-122.4196751"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825276"},"locations":"San Bruno and Alameda","lat_lon":"37.6227597,-122.4539191"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825277"},"locations":"San Francisco Airport","lat_lon":"37.6213129,-122.3811441"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825278"},"locations":"San Francisco Bay","lat_lon":"37.7943586,-122.5600484"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825279"},"locations":"San Francisco General Hospital","lat_lon":"37.7561796,-122.4071912"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882527a"},"locations":"San Francisco International Airport","lat_lon":"37.6213129,-122.3811441"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882527b"},"locations":"South Park","lat_lon":"37.6213116,-122.396465"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882527c"},"locations":"Union Square","lat_lon":"37.787933,-122.4096868"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882527d"},"locations":"University Club","lat_lon":"37.7923639,-122.4112609"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882527e"},"locations":"Van Ness Avenue","lat_lon":"37.7915058,-122.424683"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882527f"},"locations":"Washington Square Park","lat_lon":"37.8008333,-122.4121887"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825280"},"locations":"Twin Peaks","lat_lon":"37.7532508,-122.460038"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825281"},"locations":"Twin Peaks Blvd.","lat_lon":"37.7534145,-122.4503666"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825282"},"locations":"Treasure Island","lat_lon":"37.8201475,-122.3864967"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825283"},"locations":"The Ramp Restaurant","lat_lon":"37.7640533,-122.3897543"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825284"},"locations":"The Embarcadero","lat_lon":"37.7946748,-122.4144961"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825285"},"locations":"The Castro","lat_lon":"37.7625244,-122.4449224"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825286"},"locations":"Tenderloin Neighborhood","lat_lon":"37.7839295,-122.4174298"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825287"},"locations":"Russian Hill","lat_lon":"37.8008489,-122.4203317"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825288"},"locations":"San Francisco City Hall","lat_lon":"37.7796493,-122.4191953"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825289"},"locations":"Potrero Hill","lat_lon":"37.7582657,-122.4013887"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882528a"},"locations":"Port of San Francisco","lat_lon":"37.7960101,-122.3963116"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882528b"},"locations":"Pier 5","lat_lon":"37.7960101,-122.3963116"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882528c"},"locations":"Pier 7","lat_lon":"37.7986599,-122.399004"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882528d"},"locations":"Pier 27","lat_lon":"37.8053331,-122.4033424"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882528e"},"locations":"Pier 39","lat_lon":"37.808673,-122.4120097"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882528f"},"locations":"Pier 14 San Francisco","lat_lon":"37.7937577,-122.3932096"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825290"},"locations":"Pier 39 San Francisco","lat_lon":"37.808673,-122.4120097"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825291"},"locations":"Palace of Fine Arts","lat_lon":"37.8020068,-122.4507942"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825292"},"locations":"Ocean Park Motel","lat_lon":"37.7363439,-122.5060666"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825293"},"locations":"Ocean Beach","lat_lon":"37.7525616,-122.5448137"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825294"},"locations":"Nobles Alley","lat_lon":"37.8009791,-122.4096339"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825295"},"locations":"Motel Capri","lat_lon":"37.799185,-122.4352177"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825296"},"locations":"Marina Green","lat_lon":"37.8062328,-122.4458768"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825297"},"locations":"Lucky Street","lat_lon":"37.7509423,-122.4155722"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825298"},"locations":"Lombard Street","lat_lon":"37.8009995,-122.4289165"}
+{"_id":{"$oid":"5e9dfd9e4f857a0868825299"},"locations":"Laguna Honda Hospital","lat_lon":"37.8009787,-122.4967679"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882529a"},"locations":"Java St","lat_lon":"37.7665587,-122.4465694"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882529b"},"locations":"Jefferson Square Park","lat_lon":"37.7665379,-122.5144208"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882529c"},"locations":"Java House (Pier 40, Embarcadero)","lat_lon":"37.7842944,-122.38979"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882529d"},"locations":"Hyde Street Cable Car","lat_lon":"37.784294,-122.3963561"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882529e"},"locations":"Huntington Park","lat_lon":"37.79218,-122.4143687"}
+{"_id":{"$oid":"5e9dfd9e4f857a086882529f"},"locations":"Heald College","lat_lon":"37.7818248,-122.4061278"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252a0"},"locations":"Harry's Bar on Fillmore","lat_lon":"37.7883758,-122.435729"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252a1"},"locations":"Golden Gate Park","lat_lon":"37.7883745,-122.4510499"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252a2"},"locations":"Golden Gate Music Concourse","lat_lon":"37.8013562,-122.5041522"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252a3"},"locations":"Golden Gate Bridge","lat_lon":"37.8199286,-122.4804438"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252a4"},"locations":"Forest Hill Station- MUNI","lat_lon":"37.7479845,-122.4611963"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252a5"},"locations":"Forrest Hill Muni Station","lat_lon":"37.7479845,-122.4611963"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252a6"},"locations":"Fisherman's Wharf","lat_lon":"37.8081102,-122.4210084"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252a7"},"locations":"Financial District","lat_lon":"37.7927731,-122.4054696"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252a8"},"locations":"Ferry Building","lat_lon":"37.795447,-122.3955071"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252a9"},"locations":"Fairmont Hotel","lat_lon":"37.7954466,-122.4020732"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252aa"},"locations":"Embarcadero Freeway","lat_lon":"37.7876159,-122.2517802"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252ab"},"locations":"Dolores Park","lat_lon":"37.7595861,-122.429097"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252ac"},"locations":"Crissy Field","lat_lon":"37.8053211,-122.4638979"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252ad"},"locations":"Contemporary Jewish Museum","lat_lon":"37.7860026,-122.4058607"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252ae"},"locations":"Chinatown","lat_lon":"37.7860022,-122.4124268"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252af"},"locations":"City Hall","lat_lon":"37.7796493,-122.4191953"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252b0"},"locations":"Civic Center Plaza","lat_lon":"37.7794744,-122.4198934"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252b1"},"locations":"Caffe Trieste","lat_lon":"37.7986417,-122.4095026"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252b2"},"locations":"Bay Bridge","lat_lon":"37.7982799,-122.3800069"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252b3"},"locations":"Baker Beach","lat_lon":"37.7938842,-122.4896904"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252b4"},"locations":"Aub Zam Zam Bar","lat_lon":"37.7695639,-122.4515415"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252b5"},"locations":"Antonio Alley","lat_lon":"37.7695639,-122.4515415"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252b6"},"locations":"Alcatraz Island","lat_lon":"37.8269775,-122.4251442"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252b7"},"locations":"Alioto Park","lat_lon":"37.7588667,-122.4203665"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252b8"},"locations":"Alta Plaza Park","lat_lon":"37.7911233,-122.4398947"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252b9"},"locations":"940 Powell St.","lat_lon":"37.7934919,-122.4114541"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252ba"},"locations":"951 Hudson Avenue","lat_lon":"37.7331614,-122.3788177"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252bb"},"locations":"738 Washington St","lat_lon":"37.7953309,-122.407953"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252bc"},"locations":"75 California Street","lat_lon":"37.7931359,-122.3994286"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252bd"},"locations":"788 Minna St","lat_lon":"37.7760486,-122.4163124"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252be"},"locations":"790 Ulloa","lat_lon":"37.7408365,-122.4668918"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252bf"},"locations":"Bernal Heights Boulevard","lat_lon":"37.7422467,-122.4148103"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252c0"},"locations":"Bernal Heights Park","lat_lon":"37.7433416,-122.4161812"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252c1"},"locations":"California Cable Car Line","lat_lon":"37.7919706,-122.4181587"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252c2"},"locations":"California at Grant","lat_lon":"37.7911406,-122.4216678"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252c3"},"locations":"California at Mason","lat_lon":"37.7922068,-122.4112217"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252c4"},"locations":"Hyde at Union","lat_lon":"37.7992091,-122.4212632"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252c5"},"locations":"Leavenworth at Green","lat_lon":"37.7809325,-122.4224398"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252c6"},"locations":"Leavenworth at McAllister St","lat_lon":"37.7809329,-122.4158737"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252c7"},"locations":"Leavenworth at Union","lat_lon":"37.7994171,-122.4196218"}
+{"_id":{"$oid":"5e9dfd9e4f857a08688252c8"},"locations":"Lombard at Hyde","lat_lon":"37.8020026,-122.4218348"}
