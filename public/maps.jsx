@@ -17,7 +17,7 @@ function initMap() {
     zoom: 12,
   });
 
-  var card = document.getElementById("search-card");
+  let card = document.getElementById("search-card");
 
   map.controls[google.maps.ControlPosition.TOP_RIGHT].push(card);
 }
@@ -45,6 +45,7 @@ function getMoviesList(movie) {
 }
 
 function displayMarker(data) {
+  if (data === undefined) return;
   const latlngCenter = new google.maps.LatLng(
     sanfrancisco.lat,
     sanfrancisco.lng

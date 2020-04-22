@@ -8,9 +8,29 @@ class AutoCompleteSearch extends React.Component {
       suggestions: [],
       text: "",
       searchKey: "",
-      gotResp: false,
     };
     this.onEscape = this.onEscape.bind(this);
+  }
+
+  componentDidMount() {
+    let allMovieList = [];
+    const that = this;
+
+    axios.get("/movies?title=").then(function (response) {
+      for (var i = 0; i < response.data.length; i++) {
+        allMovieList.push(response.data[i].title);
+      }
+
+      that.setState(() => ({
+        allMovieList: allMovieList,
+        suggestions: ["empty"],
+      }));
+    });
+    document.addEventListener("keydown", this.onEscape, false);
+  }
+
+  componentWillUnmount() {
+    document.removeEventListener("keydown", this.onEscape, false);
   }
 
   onEscape(event) {
@@ -24,31 +44,42 @@ class AutoCompleteSearch extends React.Component {
     }
   }
 
-  componentDidMount() {
-    document.addEventListener("keydown", this.onEscape, false);
-  }
-
-  componentWillUnmount() {
-    document.removeEventListener("keydown", this.onEscape, false);
-  }
-
   onBlurInput = (elem) => {
     this.setState(() => ({
       text: "",
       searchKey: "",
       suggestions: ["empty"],
-      allMovieList: [],
     }));
   };
 
-  onFocusInput = (elem) => {
+  onFocusLoadList = (elem) => {
+    const value = elem.target.value.toLowerCase();
+    let suggestions = [];
+    let allMovieList = this.state.allMovieList;
+
+    if (value === "") {
+      suggestions = allMovieList;
+    } else if (value.length > 0) {
+      const regex = new RegExp(value);
+      suggestions = allMovieList
+        .sort()
+        .filter((v) => regex.test(v.toLowerCase()));
+    }
+
+    this.setState(() => ({
+      allMovieList: allMovieList,
+      suggestions: suggestions,
+      text: value,
+      searchKey: value,
+    }));
+  };
+
+  onFocusSendRequestAndLoadList = (elem) => {
     const value = elem.target.value.toLowerCase();
     let suggestions = [];
     let allMovieList = [];
     const that = this;
-    this.setState(() => ({
-      gotResp: true,
-    }));
+
     axios.get("/movies?title=").then(function (response) {
       for (var i = 0; i < response.data.length; i++) {
         allMovieList.push(response.data[i].title);
@@ -64,7 +95,6 @@ class AutoCompleteSearch extends React.Component {
       }
 
       that.setState(() => ({
-        gotResp: false,
         allMovieList: allMovieList,
         suggestions: suggestions,
         text: value,
@@ -85,7 +115,6 @@ class AutoCompleteSearch extends React.Component {
     }
 
     this.setState(() => ({
-      gotResp: false,
       suggestions: suggestions,
       text: value,
       searchKey: value,
@@ -96,7 +125,6 @@ class AutoCompleteSearch extends React.Component {
     this.setState(() => ({
       text: value,
       searchKey: "",
-      allMovieList: [],
       suggestions: ["empty"],
     }));
   };
@@ -116,9 +144,9 @@ class AutoCompleteSearch extends React.Component {
           id="search-input"
           type="text"
           placeholder="Enter a movie name"
-          onFocus={this.onFocusInput}
+          onFocus={this.onFocusLoadList}
+          // onFocus={this.onFocusSendRequestAndLoadList}
           onChange={this.onTextChange}
-          // disabled={this.state.gotResp}
           value={text}
         />
       </div>,

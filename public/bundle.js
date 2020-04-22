@@ -30666,24 +30666,41 @@ var AutoCompleteSearch = /*#__PURE__*/function (_React$Component) {
         return {
           text: "",
           searchKey: "",
-          suggestions: ["empty"],
-          allMovieList: []
+          suggestions: ["empty"]
         };
       });
     });
 
-    _defineProperty(_assertThisInitialized(_this), "onFocusInput", function (elem) {
+    _defineProperty(_assertThisInitialized(_this), "onFocusLoadList", function (elem) {
+      var value = elem.target.value.toLowerCase();
+      var suggestions = [];
+      var allMovieList = _this.state.allMovieList;
+
+      if (value === "") {
+        suggestions = allMovieList;
+      } else if (value.length > 0) {
+        var regex = new RegExp(value);
+        suggestions = allMovieList.sort().filter(function (v) {
+          return regex.test(v.toLowerCase());
+        });
+      }
+
+      _this.setState(function () {
+        return {
+          allMovieList: allMovieList,
+          suggestions: suggestions,
+          text: value,
+          searchKey: value
+        };
+      });
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "onFocusSendRequestAndLoadList", function (elem) {
       var value = elem.target.value.toLowerCase();
       var suggestions = [];
       var allMovieList = [];
 
       var that = _assertThisInitialized(_this);
-
-      _this.setState(function () {
-        return {
-          gotResp: true
-        };
-      });
 
       axios__WEBPACK_IMPORTED_MODULE_1___default.a.get("/movies?title=").then(function (response) {
         for (var i = 0; i < response.data.length; i++) {
@@ -30701,7 +30718,6 @@ var AutoCompleteSearch = /*#__PURE__*/function (_React$Component) {
 
         that.setState(function () {
           return {
-            gotResp: false,
             allMovieList: allMovieList,
             suggestions: suggestions,
             text: value,
@@ -30724,7 +30740,6 @@ var AutoCompleteSearch = /*#__PURE__*/function (_React$Component) {
 
       _this.setState(function () {
         return {
-          gotResp: false,
           suggestions: suggestions,
           text: value,
           searchKey: value
@@ -30737,7 +30752,6 @@ var AutoCompleteSearch = /*#__PURE__*/function (_React$Component) {
         return {
           text: value,
           searchKey: "",
-          allMovieList: [],
           suggestions: ["empty"]
         };
       });
@@ -30746,14 +30760,37 @@ var AutoCompleteSearch = /*#__PURE__*/function (_React$Component) {
     _this.state = {
       suggestions: [],
       text: "",
-      searchKey: "",
-      gotResp: false
+      searchKey: ""
     };
     _this.onEscape = _this.onEscape.bind(_assertThisInitialized(_this));
     return _this;
   }
 
   _createClass(AutoCompleteSearch, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      var allMovieList = [];
+      var that = this;
+      axios__WEBPACK_IMPORTED_MODULE_1___default.a.get("/movies?title=").then(function (response) {
+        for (var i = 0; i < response.data.length; i++) {
+          allMovieList.push(response.data[i].title);
+        }
+
+        that.setState(function () {
+          return {
+            allMovieList: allMovieList,
+            suggestions: ["empty"]
+          };
+        });
+      });
+      document.addEventListener("keydown", this.onEscape, false);
+    }
+  }, {
+    key: "componentWillUnmount",
+    value: function componentWillUnmount() {
+      document.removeEventListener("keydown", this.onEscape, false);
+    }
+  }, {
     key: "onEscape",
     value: function onEscape(event) {
       if (event.keyCode === 27) {
@@ -30766,16 +30803,6 @@ var AutoCompleteSearch = /*#__PURE__*/function (_React$Component) {
           };
         });
       }
-    }
-  }, {
-    key: "componentDidMount",
-    value: function componentDidMount() {
-      document.addEventListener("keydown", this.onEscape, false);
-    }
-  }, {
-    key: "componentWillUnmount",
-    value: function componentWillUnmount() {
-      document.removeEventListener("keydown", this.onEscape, false);
     }
   }, {
     key: "render",
@@ -30794,10 +30821,10 @@ var AutoCompleteSearch = /*#__PURE__*/function (_React$Component) {
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
         id: "search-input",
         type: "text",
-        placeholder: "Enter a movie name",
-        onFocus: this.onFocusInput,
-        onChange: this.onTextChange // disabled={this.state.gotResp}
+        placeholder: "Enter a movie name" // onFocus={this.onFocusLoadList}
         ,
+        onFocus: this.onFocusSendRequestAndLoadList,
+        onChange: this.onTextChange,
         value: text
       }))];
     }
