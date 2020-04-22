@@ -30661,38 +30661,41 @@ var AutoCompleteSearch = /*#__PURE__*/function (_React$Component) {
 
     _this = _super.call(this, props);
 
-    _defineProperty(_assertThisInitialized(_this), "onBlurInp", function (elem) {
+    _defineProperty(_assertThisInitialized(_this), "onBlurInput", function (elem) {
       _this.setState(function () {
         return {
           text: "",
           searchKey: "",
-          suggestions: ["empty"]
+          suggestions: ["empty"],
+          allMovieList: []
         };
       });
     });
 
-    _defineProperty(_assertThisInitialized(_this), "onTextChange", function (elem) {
+    _defineProperty(_assertThisInitialized(_this), "onFocusInput", function (elem) {
       var value = elem.target.value.toLowerCase();
       var suggestions = [];
+      var allMovieList = [];
 
       var that = _assertThisInitialized(_this);
 
       axios__WEBPACK_IMPORTED_MODULE_1___default.a.get("/movies?title=").then(function (response) {
         for (var i = 0; i < response.data.length; i++) {
-          suggestions.push(response.data[i].title);
+          allMovieList.push(response.data[i].title);
         }
 
         if (value === "") {
-          suggestions = suggestions;
+          suggestions = allMovieList;
         } else if (value.length > 0) {
           var regex = new RegExp(value);
-          suggestions = suggestions.sort().filter(function (v) {
+          suggestions = allMovieList.sort().filter(function (v) {
             return regex.test(v.toLowerCase());
           });
         }
 
         that.setState(function () {
           return {
+            allMovieList: allMovieList,
             suggestions: suggestions,
             text: value,
             searchKey: value
@@ -30701,11 +30704,32 @@ var AutoCompleteSearch = /*#__PURE__*/function (_React$Component) {
       });
     });
 
+    _defineProperty(_assertThisInitialized(_this), "onTextChange", function (elem) {
+      var value = elem.target.value.toLowerCase();
+      var suggestions = _this.state.allMovieList;
+
+      if (value.length > 0) {
+        var regex = new RegExp(value);
+        suggestions = suggestions.sort().filter(function (v) {
+          return regex.test(v.toLowerCase());
+        });
+      }
+
+      _this.setState(function () {
+        return {
+          suggestions: suggestions,
+          text: value,
+          searchKey: value
+        };
+      });
+    });
+
     _defineProperty(_assertThisInitialized(_this), "selectedText", function (value) {
       _this.setState(function () {
         return {
           text: value,
           searchKey: "",
+          allMovieList: [],
           suggestions: ["empty"]
         };
       });
@@ -30754,7 +30778,7 @@ var AutoCompleteSearch = /*#__PURE__*/function (_React$Component) {
       return [/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         key: 0,
         id: "title",
-        onClick: this.onBlurInp
+        onClick: this.onBlurInput
       }, "Search Filming Location"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         key: 1,
         id: "search-container"
@@ -30762,6 +30786,7 @@ var AutoCompleteSearch = /*#__PURE__*/function (_React$Component) {
         id: "search-input",
         type: "text",
         placeholder: "Enter a movie name",
+        onFocus: this.onFocusInput,
         onChange: this.onTextChange,
         value: text
       }))];

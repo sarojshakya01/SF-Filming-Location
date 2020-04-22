@@ -117,8 +117,6 @@ function displayMarker(data) {
         content: infowindowContent,
       });
 
-      // infowindow.setContent(infowindowContent);
-
       let marker = new google.maps.Marker({
         map: map,
         anchorPoint: new google.maps.Point(0, -29),
@@ -131,9 +129,9 @@ function displayMarker(data) {
 
       // bind the click event of marker to show info window
       marker.addListener("click", function () {
+        $(".gm-style-iw-t").hide();
         infowindow.open(map, marker);
       });
-
       // zoom out the map after 2 secs
       setTimeout(function () {
         map.setZoom(12);

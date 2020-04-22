@@ -31,45 +31,67 @@ class AutoCompleteSearch extends React.Component {
     document.removeEventListener("keydown", this.onEscape, false);
   }
 
-  onBlurInp = (elem) => {
+  onBlurInput = (elem) => {
     this.setState(() => ({
       text: "",
       searchKey: "",
       suggestions: ["empty"],
+      allMovieList: [],
     }));
   };
 
-  onTextChange = (elem) => {
+  onFocusInput = (elem) => {
     const value = elem.target.value.toLowerCase();
     let suggestions = [];
+    let allMovieList = [];
     const that = this;
 
     axios.get("/movies?title=").then(function (response) {
       for (var i = 0; i < response.data.length; i++) {
-        suggestions.push(response.data[i].title);
+        allMovieList.push(response.data[i].title);
       }
 
       if (value === "") {
-        suggestions = suggestions;
+        suggestions = allMovieList;
       } else if (value.length > 0) {
         const regex = new RegExp(value);
-        suggestions = suggestions
+        suggestions = allMovieList
           .sort()
           .filter((v) => regex.test(v.toLowerCase()));
       }
 
       that.setState(() => ({
-        suggestions,
+        allMovieList: allMovieList,
+        suggestions: suggestions,
         text: value,
         searchKey: value,
       }));
     });
   };
 
+  onTextChange = (elem) => {
+    const value = elem.target.value.toLowerCase();
+    let suggestions = this.state.allMovieList;
+
+    if (value.length > 0) {
+      const regex = new RegExp(value);
+      suggestions = suggestions
+        .sort()
+        .filter((v) => regex.test(v.toLowerCase()));
+    }
+
+    this.setState(() => ({
+      suggestions: suggestions,
+      text: value,
+      searchKey: value,
+    }));
+  };
+
   selectedText = (value) => {
     this.setState(() => ({
       text: value,
       searchKey: "",
+      allMovieList: [],
       suggestions: ["empty"],
     }));
   };
@@ -81,7 +103,7 @@ class AutoCompleteSearch extends React.Component {
 
     renderSuggestions(this, searchKey, suggestions);
     return [
-      <div key={0} id="title" onClick={this.onBlurInp}>
+      <div key={0} id="title" onClick={this.onBlurInput}>
         Search Filming Location
       </div>,
       <div key={1} id="search-container">
@@ -89,6 +111,7 @@ class AutoCompleteSearch extends React.Component {
           id="search-input"
           type="text"
           placeholder="Enter a movie name"
+          onFocus={this.onFocusInput}
           onChange={this.onTextChange}
           value={text}
         />
