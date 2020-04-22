@@ -1,4 +1,4 @@
-[My linkedin profile](https://www.linkedin.com/in/saroj-shakya)
+visit My linkedin profile [here](https://www.linkedin.com/in/saroj-shakya)
 
 Check out SF Movies at [here](http://shakyasaroj.com.np).
 
