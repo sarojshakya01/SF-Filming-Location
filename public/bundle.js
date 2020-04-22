@@ -30661,23 +30661,30 @@ var AutoCompleteSearch = /*#__PURE__*/function (_React$Component) {
 
     _this = _super.call(this, props);
 
-    _defineProperty(_assertThisInitialized(_this), "onTextChange", function (event) {
-      var value = event.target.value.toLowerCase();
+    _defineProperty(_assertThisInitialized(_this), "onBlurInp", function (elem) {
+      _this.setState(function () {
+        return {
+          text: "",
+          searchKey: "",
+          suggestions: ["empty"]
+        };
+      });
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "onTextChange", function (elem) {
+      var value = elem.target.value.toLowerCase();
       var suggestions = [];
 
       var that = _assertThisInitialized(_this);
 
       axios__WEBPACK_IMPORTED_MODULE_1___default.a.get("/movies?title=").then(function (response) {
-        // suggestions = response.data;
         for (var i = 0; i < response.data.length; i++) {
           suggestions.push(response.data[i].title);
         }
 
         if (value === "") {
           suggestions = suggestions;
-        }
-
-        if (value.length > 0) {
+        } else if (value.length > 0) {
           var regex = new RegExp(value);
           suggestions = suggestions.sort().filter(function (v) {
             return regex.test(v.toLowerCase());
@@ -30709,10 +30716,35 @@ var AutoCompleteSearch = /*#__PURE__*/function (_React$Component) {
       text: "",
       searchKey: ""
     };
+    _this.onEscape = _this.onEscape.bind(_assertThisInitialized(_this));
     return _this;
   }
 
   _createClass(AutoCompleteSearch, [{
+    key: "onEscape",
+    value: function onEscape(event) {
+      if (event.keyCode === 27) {
+        // esc key pressed
+        this.setState(function () {
+          return {
+            text: "",
+            searchKey: "",
+            suggestions: ["empty"]
+          };
+        });
+      }
+    }
+  }, {
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      document.addEventListener("keydown", this.onEscape, false);
+    }
+  }, {
+    key: "componentWillUnmount",
+    value: function componentWillUnmount() {
+      document.removeEventListener("keydown", this.onEscape, false);
+    }
+  }, {
     key: "render",
     value: function render() {
       var text = this.state.text;
@@ -30721,7 +30753,8 @@ var AutoCompleteSearch = /*#__PURE__*/function (_React$Component) {
       renderSuggestions(this, searchKey, suggestions);
       return [/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         key: 0,
-        id: "title"
+        id: "title",
+        onClick: this.onBlurInp
       }, "Search Filming Location"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         key: 1,
         id: "search-container"
@@ -30738,7 +30771,7 @@ var AutoCompleteSearch = /*#__PURE__*/function (_React$Component) {
   return AutoCompleteSearch;
 }(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
 
-/* harmony default export */ __webpack_exports__["default"] = (AutoCompleteSearch);
+/* harmony default export */ __webpack_exports__["default"] = (AutoCompleteSearch); // function to render the suggestions
 
 function renderSuggestions(comp, searchKey, suggestions) {
   var Suggestions;
@@ -30795,7 +30828,8 @@ function renderSuggestions(comp, searchKey, suggestions) {
   if (document.getElementById("suggestion") != null) {
     ReactDOM.render(Suggestions, document.getElementById("suggestion"));
   }
-}
+} // function to get x and y position of element
+
 
 function getPosition(element) {
   var xPosition = 0;

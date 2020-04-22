@@ -9,28 +9,55 @@ class AutoCompleteSearch extends React.Component {
       text: "",
       searchKey: "",
     };
+    this.onEscape = this.onEscape.bind(this);
   }
-  onTextChange = (event) => {
-    const value = event.target.value.toLowerCase();
+
+  onEscape(event) {
+    if (event.keyCode === 27) {
+      // esc key pressed
+      this.setState(() => ({
+        text: "",
+        searchKey: "",
+        suggestions: ["empty"],
+      }));
+    }
+  }
+
+  componentDidMount() {
+    document.addEventListener("keydown", this.onEscape, false);
+  }
+
+  componentWillUnmount() {
+    document.removeEventListener("keydown", this.onEscape, false);
+  }
+
+  onBlurInp = (elem) => {
+    this.setState(() => ({
+      text: "",
+      searchKey: "",
+      suggestions: ["empty"],
+    }));
+  };
+
+  onTextChange = (elem) => {
+    const value = elem.target.value.toLowerCase();
     let suggestions = [];
     const that = this;
 
     axios.get("/movies?title=").then(function (response) {
-      // suggestions = response.data;
       for (var i = 0; i < response.data.length; i++) {
         suggestions.push(response.data[i].title);
       }
 
       if (value === "") {
         suggestions = suggestions;
-      }
-
-      if (value.length > 0) {
+      } else if (value.length > 0) {
         const regex = new RegExp(value);
         suggestions = suggestions
           .sort()
           .filter((v) => regex.test(v.toLowerCase()));
       }
+
       that.setState(() => ({
         suggestions,
         text: value,
@@ -46,6 +73,7 @@ class AutoCompleteSearch extends React.Component {
       suggestions: ["empty"],
     }));
   };
+
   render() {
     const text = this.state.text;
     const suggestions = this.state.suggestions;
@@ -53,7 +81,7 @@ class AutoCompleteSearch extends React.Component {
 
     renderSuggestions(this, searchKey, suggestions);
     return [
-      <div key={0} id="title">
+      <div key={0} id="title" onClick={this.onBlurInp}>
         Search Filming Location
       </div>,
       <div key={1} id="search-container">
@@ -71,28 +99,33 @@ class AutoCompleteSearch extends React.Component {
 
 export default AutoCompleteSearch;
 
+// function to render the suggestions
 function renderSuggestions(comp, searchKey, suggestions) {
   let Suggestions;
+
   if (suggestions.length === 1 && suggestions[0] === "empty") {
     Suggestions = <div></div>;
   } else {
     const inputFieldXY = getPosition(document.getElementById("search-input"));
     const xpos = inputFieldXY.x.toString() + "px";
     const ypos = (inputFieldXY.y + 20).toString() + "px";
-
     let yposTotRec = (inputFieldXY.y + 20 + 310).toString() + "px";
+
     if (suggestions.length === 0) {
       yposTotRec = (inputFieldXY.y + 20).toString() + "px";
     } else if (suggestions.length < 10) {
       yposTotRec =
         (inputFieldXY.y + 20 + 31 * suggestions.length).toString() + "px";
     }
+
     const style = {
       left: xpos,
       top: ypos,
       display: "block",
     };
+
     const styleTotRecords = { left: xpos, top: yposTotRec };
+
     Suggestions = (
       <div className="search-container search-logo" style={style}>
         {suggestions.map((item, index) => (
@@ -109,6 +142,7 @@ function renderSuggestions(comp, searchKey, suggestions) {
             <span className="item">{item}</span>
           </div>
         ))}
+
         <div
           key={"count"}
           className="search-item total-records"
@@ -125,6 +159,7 @@ function renderSuggestions(comp, searchKey, suggestions) {
   }
 }
 
+// function to get x and y position of element
 function getPosition(element) {
   let xPosition = 0;
   let yPosition = 0;

@@ -1,14 +1,38 @@
+// global map
 let map;
+
+// to center the map, use the location of San Francisco
 const sanfrancisco = { lat: 37.755704, lng: -122.437344 };
 
+// to store the active markers
 let activeMarker = [];
 
 initMap();
 
+bindClick();
+
+function initMap() {
+  map = new google.maps.Map(document.getElementById("map"), {
+    center: sanfrancisco,
+    zoom: 12,
+  });
+
+  var card = document.getElementById("search-card");
+
+  map.controls[google.maps.ControlPosition.TOP_RIGHT].push(card);
+}
+
+function bindClick() {
+  $("body").on("click", ".search-item", function () {
+    const movie = $(this).find("span.item").html();
+    getMoviesList(movie);
+  });
+}
+
 function getMoviesList(movie) {
   $.ajax("/movies?title=" + movie, {
     dataType: "json",
-    timeout: 5000,
+    timeout: 5000 /* 5 sec of timeout time */,
     success: function (data, status, xhr) {
       if (movie !== "") {
         displayMarker(data);
@@ -19,11 +43,6 @@ function getMoviesList(movie) {
     },
   });
 }
-
-$("body").on("click", ".search-item", function () {
-  const movie = $(this).find("span.item").html();
-  getMoviesList(movie);
-});
 
 function displayMarker(data) {
   const latlngCenter = new google.maps.LatLng(
@@ -92,40 +111,33 @@ function displayMarker(data) {
         $("#actor-3").html("<b>Actor 3: </b>" + info.actor_3 + "<br/>");
       }
 
-      let infowindow = new google.maps.InfoWindow();
       let infowindowContent = $("#infowindow-content")[0];
 
-      infowindow.setContent(infowindowContent);
+      let infowindow = new google.maps.InfoWindow({
+        content: infowindowContent,
+      });
+
+      // infowindow.setContent(infowindowContent);
+
       let marker = new google.maps.Marker({
         map: map,
         anchorPoint: new google.maps.Point(0, -29),
       });
 
-      infowindow.close();
-
-      activeMarker.push(marker);
-
-      marker.setVisible(false);
       marker.setTitle(info.locations);
       marker.setPosition(latlngPos);
       marker.setVisible(true);
+      activeMarker.push(marker);
+
+      // bind the click event of marker to show info window
       marker.addListener("click", function () {
         infowindow.open(map, marker);
       });
+
+      // zoom out the map after 2 secs
       setTimeout(function () {
         map.setZoom(12);
       }, 2000);
     }
   }
-}
-
-function initMap() {
-  map = new google.maps.Map(document.getElementById("map"), {
-    center: sanfrancisco,
-    zoom: 12,
-  });
-
-  var card = document.getElementById("search-card");
-
-  map.controls[google.maps.ControlPosition.TOP_RIGHT].push(card);
 }
