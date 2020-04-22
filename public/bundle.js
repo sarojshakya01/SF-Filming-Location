@@ -30679,6 +30679,12 @@ var AutoCompleteSearch = /*#__PURE__*/function (_React$Component) {
 
       var that = _assertThisInitialized(_this);
 
+      _this.setState(function () {
+        return {
+          gotResp: true
+        };
+      });
+
       axios__WEBPACK_IMPORTED_MODULE_1___default.a.get("/movies?title=").then(function (response) {
         for (var i = 0; i < response.data.length; i++) {
           allMovieList.push(response.data[i].title);
@@ -30695,6 +30701,7 @@ var AutoCompleteSearch = /*#__PURE__*/function (_React$Component) {
 
         that.setState(function () {
           return {
+            gotResp: false,
             allMovieList: allMovieList,
             suggestions: suggestions,
             text: value,
@@ -30717,6 +30724,7 @@ var AutoCompleteSearch = /*#__PURE__*/function (_React$Component) {
 
       _this.setState(function () {
         return {
+          gotResp: false,
           suggestions: suggestions,
           text: value,
           searchKey: value
@@ -30738,7 +30746,8 @@ var AutoCompleteSearch = /*#__PURE__*/function (_React$Component) {
     _this.state = {
       suggestions: [],
       text: "",
-      searchKey: ""
+      searchKey: "",
+      gotResp: false
     };
     _this.onEscape = _this.onEscape.bind(_assertThisInitialized(_this));
     return _this;
@@ -30787,7 +30796,8 @@ var AutoCompleteSearch = /*#__PURE__*/function (_React$Component) {
         type: "text",
         placeholder: "Enter a movie name",
         onFocus: this.onFocusInput,
-        onChange: this.onTextChange,
+        onChange: this.onTextChange // disabled={this.state.gotResp}
+        ,
         value: text
       }))];
     }

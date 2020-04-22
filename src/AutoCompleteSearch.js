@@ -8,6 +8,7 @@ class AutoCompleteSearch extends React.Component {
       suggestions: [],
       text: "",
       searchKey: "",
+      gotResp: false,
     };
     this.onEscape = this.onEscape.bind(this);
   }
@@ -45,7 +46,9 @@ class AutoCompleteSearch extends React.Component {
     let suggestions = [];
     let allMovieList = [];
     const that = this;
-
+    this.setState(() => ({
+      gotResp: true,
+    }));
     axios.get("/movies?title=").then(function (response) {
       for (var i = 0; i < response.data.length; i++) {
         allMovieList.push(response.data[i].title);
@@ -61,6 +64,7 @@ class AutoCompleteSearch extends React.Component {
       }
 
       that.setState(() => ({
+        gotResp: false,
         allMovieList: allMovieList,
         suggestions: suggestions,
         text: value,
@@ -81,6 +85,7 @@ class AutoCompleteSearch extends React.Component {
     }
 
     this.setState(() => ({
+      gotResp: false,
       suggestions: suggestions,
       text: value,
       searchKey: value,
@@ -113,6 +118,7 @@ class AutoCompleteSearch extends React.Component {
           placeholder="Enter a movie name"
           onFocus={this.onFocusInput}
           onChange={this.onTextChange}
+          // disabled={this.state.gotResp}
           value={text}
         />
       </div>,

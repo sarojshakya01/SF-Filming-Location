@@ -5,7 +5,9 @@ const app = express();
 
 const router = express.Router();
 
-const uri = "mongodb://127.0.0.1:27017/";
+const uri = "mongodb+srv://sarojsh:sarojsh@cluster0-jb3wc.gcp.mongodb.net/";
+
+// const uri = "mongodb://127.0.0.1:27017/";
 
 const mongocli = mongo.MongoClient;
 
@@ -20,7 +22,7 @@ mongocli.connect(
   },
   function (err, db) {
     if (err) throw err;
-    console.log("Database Connected Successfully at 127.0.0.1:27017");
+    console.log("Database Connected Successfully at " + uri);
   }
 );
 
