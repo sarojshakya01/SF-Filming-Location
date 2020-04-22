@@ -30821,9 +30821,9 @@ var AutoCompleteSearch = /*#__PURE__*/function (_React$Component) {
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
         id: "search-input",
         type: "text",
-        placeholder: "Enter a movie name" // onFocus={this.onFocusLoadList}
+        placeholder: "Enter a movie name",
+        onFocus: this.onFocusLoadList // onFocus={this.onFocusSendRequestAndLoadList}
         ,
-        onFocus: this.onFocusSendRequestAndLoadList,
         onChange: this.onTextChange,
         value: text
       }))];
