@@ -6,7 +6,7 @@ After cloning(or downloading and extracting) the project, go to the project dire
 
 ### `npm start`
 
-#Project: SF Movies
+### Project: SF Movies
 
 ### Problem Statement
 
