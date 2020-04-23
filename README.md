@@ -1,7 +1,5 @@
 visit My linkedin profile [here](https://www.linkedin.com/in/saroj-shakya)
 
-Check out SF Movies at [here](http://shakyasaroj.com.np).
-
 After cloning(or downloading and extracting) the project, go to the project directory and run
 
 ### `npm start`
