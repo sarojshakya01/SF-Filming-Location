@@ -12,8 +12,7 @@ const SanFrancisco = { lat: 37.755704, lng: -122.437344 };
 class GoogleMap extends React.Component {
   constructor(props) {
     super(props);
-    // this.KEY = "mykey";
-    this.KEY = "AIzaSyBrX6PgieG65DkgD9G0CYPYcG7Uk2YK4nM";
+    this.KEY = "<GOOGLE_MAP_API_KEY>";
     this.center = SanFrancisco;
     this.zoom = 12;
     this.activeMarkers = [];
