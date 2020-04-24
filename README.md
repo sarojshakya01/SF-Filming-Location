@@ -32,7 +32,6 @@ ExpressJS
 ReactJS
 NodeJS
 JavaScript
-jQuery
 AJAX
 HTML5
 CSS
@@ -41,7 +40,7 @@ I am learning MERN since last few months and I have been working on jQuery and A
 
 ### Architechture and Working Mechanism
 
-This application has a simple autocompletion search with total found suggestions at right top corner of the page. At the background, a google map is loaded when the page opens. When the user search for a movie, the get request is sent using axios for total movies available, then at front end, the matched movies with search key is displayed along with total number of matched movies. If the user select one suggestion from the suggestion list, request is again sent to the server from ajax for the detail information of selected movies. After server sent back the response to client, based on the detail information on movies, the markers are displayed on a map. If the user click on the marker, the info window is displayed with details information on that movies as the available data on dataset.
+This application has a simple autocompletion search with total found suggestions at right top corner of the page. At the background, a google map is loaded when the page opens. When the user search for a movie, the get request is sent using axios for total movies available, then at front end, the matched movies with search key is displayed along with total number of matched movies. If the user select one suggestion from the suggestion list, request is again sent to the server for the detail information of selected movies. After server sent back the response to client, based on the detail information on movies, the markers are displayed on a map. If the user click on the marker, the info window is displayed with details information on that movies as the available data on dataset.
 
 ### Dificulties
 

@@ -1,11 +1,13 @@
 import React from "react";
 import axios from "axios";
+import Suggestion from "./Suggestion";
 
 class AutoCompleteSearch extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      suggestions: [],
+      isDataFetched: false,
+      suggestions: ["empty"],
       text: "",
       searchKey: "",
     };
@@ -16,12 +18,13 @@ class AutoCompleteSearch extends React.Component {
     let allMovieList = [];
     const that = this;
 
-    axios.get("/movies?title=").then(function (response) {
+    axios.get("http://localhost:3001/movies?title=").then(function (response) {
       for (var i = 0; i < response.data.length; i++) {
         allMovieList.push(response.data[i].title);
       }
 
       that.setState(() => ({
+        isDataFetched: true,
         allMovieList: allMovieList,
         suggestions: ["empty"],
       }));
@@ -80,7 +83,7 @@ class AutoCompleteSearch extends React.Component {
     let allMovieList = [];
     const that = this;
 
-    axios.get("/movies?title=").then(function (response) {
+    axios.get("http://localhost:3001/movies?title=").then(function (response) {
       for (var i = 0; i < response.data.length; i++) {
         allMovieList.push(response.data[i].title);
       }
@@ -123,109 +126,65 @@ class AutoCompleteSearch extends React.Component {
 
   selectedText = (value) => {
     this.setState(() => ({
+      isDataFetched: false,
       text: value,
       searchKey: "",
       suggestions: ["empty"],
     }));
+
+    const that = this;
+    axios
+      .get("http://localhost:3001/movies?title=" + value)
+      .then(function (response) {
+        that.props.selectMovie(response.data);
+        that.setState(() => ({
+          isDataFetched: true,
+        }));
+      });
   };
+
+  // function to render the suggestions
+  renderSuggestions() {
+    return (
+      <Suggestion
+        suggestions={this.state.suggestions}
+        searchKey={this.state.searchKey}
+        selectedText={this.selectedText}
+      />
+    );
+  }
 
   render() {
     const text = this.state.text;
-    const suggestions = this.state.suggestions;
-    const searchKey = this.state.searchKey;
 
-    renderSuggestions(this, searchKey, suggestions);
-    return [
-      <div key={0} id="title" onClick={this.onBlurInput}>
-        Search Filming Location
-      </div>,
-      <div key={1} id="search-container">
-        <input
-          id="search-input"
-          type="text"
-          placeholder="Enter a movie name"
-          onFocus={this.onFocusLoadList}
-          // onFocus={this.onFocusSendRequestAndLoadList}
-          onChange={this.onTextChange}
-          value={text}
-        />
-      </div>,
-    ];
-  }
-}
-
-export default AutoCompleteSearch;
-
-// function to render the suggestions
-function renderSuggestions(comp, searchKey, suggestions) {
-  let Suggestions;
-
-  if (suggestions.length === 1 && suggestions[0] === "empty") {
-    Suggestions = <div></div>;
-  } else {
-    const inputFieldXY = getPosition(document.getElementById("search-input"));
-    const xpos = inputFieldXY.x.toString() + "px";
-    const ypos = (inputFieldXY.y + 20).toString() + "px";
-    let yposTotRec = (inputFieldXY.y + 20 + 310).toString() + "px";
-
-    if (suggestions.length === 0) {
-      yposTotRec = (inputFieldXY.y + 20).toString() + "px";
-    } else if (suggestions.length < 10) {
-      yposTotRec =
-        (inputFieldXY.y + 20 + 31 * suggestions.length).toString() + "px";
-    }
-
-    const style = {
-      left: xpos,
-      top: ypos,
-      display: "block",
-    };
-
-    const styleTotRecords = { left: xpos, top: yposTotRec };
-
-    Suggestions = (
-      <div className="search-container search-logo" style={style}>
-        {suggestions.map((item, index) => (
-          <div
-            key={index}
-            className="search-item"
-            onClick={() => comp.selectedText(item)}
-          >
-            <span className="search-icon"></span>
-            <span className="search-item-query">
-              <span className="search-matched">{searchKey}</span>
-            </span>
-            {" - "}
-            <span className="item">{item}</span>
-          </div>
-        ))}
-
-        <div
-          key={"count"}
-          className="search-item total-records"
-          style={styleTotRecords}
-        >
-          <span>Found {suggestions.length} records.</span>
+    return this.state.isDataFetched ? (
+      <div id="search-card" className="search-card">
+        <div key={0} id="title" onClick={this.onBlurInput}>
+          Search Filming Location
+        </div>
+        <div key={1} id="search-container">
+          <input
+            id="search-input"
+            type="text"
+            placeholder="Enter a movie name"
+            onFocus={this.onFocusLoadList}
+            // onFocus={this.onFocusSendRequestAndLoadList}
+            onChange={this.onTextChange}
+            value={text}
+          />
+          {this.renderSuggestions()}
+        </div>
+      </div>
+    ) : (
+      <div id="loader" className="background">
+        <div className="dots container">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
       </div>
     );
   }
-
-  if (document.getElementById("suggestion") != null) {
-    ReactDOM.render(Suggestions, document.getElementById("suggestion"));
-  }
 }
 
-// function to get x and y position of element
-function getPosition(element) {
-  let xPosition = 0;
-  let yPosition = 0;
-
-  while (element) {
-    xPosition += element.offsetLeft - element.scrollLeft + element.clientLeft;
-    yPosition += element.offsetTop - element.scrollTop + element.clientTop;
-    element = element.offsetParent;
-  }
-
-  return { x: xPosition, y: yPosition };
-}
+export default AutoCompleteSearch;

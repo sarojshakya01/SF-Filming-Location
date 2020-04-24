@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+#root {
+  height: 100%;
+}
+
 #map {
   height: 100%;
 }
@@ -100,7 +104,8 @@ body {
 }
 
 .search-container {
-  width: 412px;
+  margin-left: 12px;
+  width: 416px;
   position: absolute;
   background-color: #fff;
   position: absolute !important;
@@ -155,7 +160,7 @@ body {
   font-weight: bold;
   color: black;
   font-size: 12px;
-  position: fixed;
+  /* position: fixed; */
   width: 412px;
   background-color: #fff;
   z-index: 1000;
@@ -170,4 +175,82 @@ body {
 
 .total-records span {
   margin-left: 23px;
+}
+
+#loader.background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(20, 1, 1, 0.9);
+  z-index: 99999;
+  opacity: 0.8px;
+}
+
+#loader .dots {
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -20px 0 0 -50px;
+  z-index: 999999;
+}
+
+#loader .dots span {
+  -webkit-transition: all 6000ms ease;
+  transition: all 6000ms ease;
+  background: rgba(198, 12, 48, 0.5);
+  height: 30px;
+  width: 30px;
+  margin: 0 10px 0 0;
+  display: inline-block;
+  border-radius: 50%;
+  animation: wave 2s ease infinite;
+  -webkit-animation: wave 2s ease infinite;
+}
+
+#loader .dots span:nth-child(1) {
+  animation-delay: 0;
+  -webkit-animation-delay: 0;
+}
+
+#loader .dots span:nth-child(2) {
+  animation-delay: 100ms;
+  -webkit-animation-delay: 100ms;
+}
+
+#loader .dots span:nth-child(3) {
+  animation-delay: 200ms;
+  -webkit-animation-delay: 200ms;
+}
+
+@-webkit-keyframes wave {
+  0%,
+  40%,
+  100% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    background-color: rgba(198, 12, 48, 0.5);
+  }
+  10% {
+    -webkit-transform: translate(0, -15px);
+    transform: translate(0, -15px);
+    background-color: rgba(198, 12, 48, 1);
+  }
+}
+
+@keyframes wave {
+  0%,
+  40%,
+  100% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    background-color: rgba(198, 12, 48, 0.5);
+  }
+  10% {
+    -webkit-transform: translate(0, -15px);
+    transform: translate(0, -15px);
+    background-color: rgb(255, 255, 255);
+  }
 }
