@@ -17,12 +17,9 @@ const InfoWindow = (props) => {
           actor_3: "",
         }
       : props.data;
+
   return (
     <div id="infowindow-content">
-      <span id="movie-title" className="title">
-        Movie Title: <span id="info-title">{movieName}</span>
-      </span>
-      <br />
       <img
         id="place-icon"
         src="/img/map.png"
@@ -32,6 +29,13 @@ const InfoWindow = (props) => {
       />
       <span id="location" className="title">
         <span id="info-location">{info.locations}</span>
+      </span>
+      <br />
+      <span id="movie-title">
+        Movie Title:{" "}
+        <span id="info-title" className="title">
+          {movieName}
+        </span>
       </span>
       <br />
       <span id="fun-fact">

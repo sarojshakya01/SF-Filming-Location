@@ -14,17 +14,16 @@ class App extends React.Component {
   }
 
   selectMovie = (data) => {
-    this.setState({ movie: data[0].title, movieInfo: data[0].description });
+    this.setState({
+      movie: data[0].title,
+      movieInfo: data[0].description,
+    });
   };
 
   render() {
     return (
       <>
-        <GoogleMap
-          movie={this.state.movie}
-          data={this.state.movieInfo}
-          selectLocation={this.selectLocation}
-        />
+        <GoogleMap movie={this.state.movie} data={this.state.movieInfo} />
         <AutoCompleteSearch selectMovie={this.selectMovie} />
         <InfoWindow
           movieName={this.state.movie}

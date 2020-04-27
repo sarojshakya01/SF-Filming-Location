@@ -5,16 +5,16 @@ import Suggestion from "./Suggestion";
 class AutoCompleteSearch extends React.Component {
   constructor(props) {
     super(props);
+    this.allMovieList = [];
+    this.suggestions = ["empty"];
     this.state = {
       isDataFetched: false,
-      suggestions: ["empty"],
       text: "",
       searchKey: "",
     };
-    this.onEscape = this.onEscape.bind(this);
   }
 
-  componentDidMount() {
+  componentDidMount = () => {
     let allMovieList = [];
     const that = this;
 
@@ -22,56 +22,53 @@ class AutoCompleteSearch extends React.Component {
       for (var i = 0; i < response.data.length; i++) {
         allMovieList.push(response.data[i].title);
       }
-
+      that.allMovieList = allMovieList;
+      that.suggestions = ["empty"];
       that.setState(() => ({
         isDataFetched: true,
-        allMovieList: allMovieList,
-        suggestions: ["empty"],
       }));
     });
     document.addEventListener("keydown", this.onEscape, false);
-  }
+  };
 
-  componentWillUnmount() {
+  componentWillUnmount = () => {
     document.removeEventListener("keydown", this.onEscape, false);
-  }
+  };
 
-  onEscape(event) {
+  onEscape = (event) => {
     if (event.keyCode === 27) {
+      this.suggestions = ["empty"];
       // esc key pressed
       this.setState(() => ({
         text: "",
         searchKey: "",
-        suggestions: ["empty"],
       }));
     }
-  }
+  };
 
   onBlurInput = (elem) => {
+    this.suggestions = ["empty"];
     this.setState(() => ({
       text: "",
       searchKey: "",
-      suggestions: ["empty"],
     }));
   };
 
   onFocusLoadList = (elem) => {
     const value = elem.target.value.toLowerCase();
     let suggestions = [];
-    let allMovieList = this.state.allMovieList;
 
     if (value === "") {
-      suggestions = allMovieList;
+      suggestions = this.allMovieList;
     } else if (value.length > 0) {
       const regex = new RegExp(value);
-      suggestions = allMovieList
+      suggestions = this.allMovieList
         .sort()
         .filter((v) => regex.test(v.toLowerCase()));
     }
 
+    this.suggestions = suggestions;
     this.setState(() => ({
-      allMovieList: allMovieList,
-      suggestions: suggestions,
       text: value,
       searchKey: value,
     }));
@@ -97,9 +94,9 @@ class AutoCompleteSearch extends React.Component {
           .filter((v) => regex.test(v.toLowerCase()));
       }
 
+      that.allMovieList = allMovieList;
+      that.suggestions = suggestions;
       that.setState(() => ({
-        allMovieList: allMovieList,
-        suggestions: suggestions,
         text: value,
         searchKey: value,
       }));
@@ -108,7 +105,7 @@ class AutoCompleteSearch extends React.Component {
 
   onTextChange = (elem) => {
     const value = elem.target.value.toLowerCase();
-    let suggestions = this.state.allMovieList;
+    let suggestions = this.allMovieList;
 
     if (value.length > 0) {
       const regex = new RegExp(value);
@@ -117,19 +114,19 @@ class AutoCompleteSearch extends React.Component {
         .filter((v) => regex.test(v.toLowerCase()));
     }
 
+    this.suggestions = suggestions;
     this.setState(() => ({
-      suggestions: suggestions,
       text: value,
       searchKey: value,
     }));
   };
 
   selectedText = (value) => {
+    this.suggestions = ["empty"];
     this.setState(() => ({
       isDataFetched: false,
       text: value,
       searchKey: "",
-      suggestions: ["empty"],
     }));
 
     const that = this;
@@ -147,7 +144,7 @@ class AutoCompleteSearch extends React.Component {
   renderSuggestions() {
     return (
       <Suggestion
-        suggestions={this.state.suggestions}
+        suggestions={this.suggestions}
         searchKey={this.state.searchKey}
         selectedText={this.selectedText}
       />

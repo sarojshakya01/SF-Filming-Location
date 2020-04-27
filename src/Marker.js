@@ -8,52 +8,43 @@ class Marker extends React.Component {
       infoWindow,
       movieName,
       data,
-      activeMarkers,
       collectActiveMarkers,
-      selectLocation,
     } = this.props;
 
-    for (let i = 0; i < activeMarkers.length; i++) {
-      activeMarkers[i].setMap(null);
-      activeMarkers.splice(i);
-    }
-
-    for (let i = 0; i < data.length; i++) {
-      if (data[i].lat_lon === undefined) {
+    for (let i = 0; i < 1; i++) {
+      if (data.lat_lon === undefined) {
         alert("Location not available.");
         break;
       }
 
-      //   selectLocation(data[i]);
-
       document.getElementById("info-title").innerHTML = movieName;
-      document.getElementById("info-location").innerHTML = data[i].locations;
+      document.getElementById("info-location").innerHTML = data.locations;
       document.getElementById("info-fun-fact").innerHTML =
-        data[i].funfact === undefined ? "" : data[i].funfact;
+        data.funfact === undefined ? "" : data.funfact;
       document.getElementById("info-prod-comp").innerHTML =
-        data[i].prodcomp === undefined ? "" : data[i].prodcomp;
+        data.prodcomp === undefined ? "" : data.prodcomp;
       document.getElementById("info-distributor").innerHTML =
-        data[i].distributor === undefined ? "" : data[i].distributor;
+        data.distributor === undefined ? "" : data.distributor;
       document.getElementById("info-director").innerHTML =
-        data[i].director === undefined ? "" : data[i].director;
+        data.director === undefined ? "" : data.director;
       document.getElementById("info-writer").innerHTML =
-        data[i].writer === undefined ? "" : data[i].writer;
+        data.writer === undefined ? "" : data.writer;
       document.getElementById("info-actor-1").innerHTML =
-        data[i].actor_1 === undefined ? "" : data[i].actor_1;
+        data.actor_1 === undefined ? "" : data.actor_1;
       document.getElementById("info-actor-2").innerHTML =
-        data[i].actor_2 === undefined ? "" : data[i].actor_2;
+        data.actor_2 === undefined ? "" : data.actor_2;
       document.getElementById("info-actor-3").innerHTML =
-        data[i].actor_3 === undefined ? "" : data[i].actor_3;
+        data.actor_3 === undefined ? "" : data.actor_3;
 
       const infoWindowContent = document.getElementById("infowindow-content");
 
       let marker = new maps.Marker({
         position: {
-          lat: parseFloat(data[i].lat_lon.split(",")[0]),
-          lng: parseFloat(data[i].lat_lon.split(",")[1]),
+          lat: parseFloat(data.lat_lon.split(",")[0]),
+          lng: parseFloat(data.lat_lon.split(",")[1]),
         },
         map: map,
-        title: data[i].locations,
+        title: data.locations,
         infoWindowContent: infoWindowContent,
       });
 
@@ -62,8 +53,14 @@ class Marker extends React.Component {
       marker.addListener("click", () => {
         infoWindow.setContent(marker.infoWindowContent);
         infoWindow.open(map, marker);
-        // document.body.appendChild(infoWindowContent);
       });
+      infoWindow.addListener("closeclick", () => {
+        document.getElementById("root").appendChild(marker.infoWindowContent);
+      });
+
+      //   document.getElementById("suggestion").addEventListener("click", () => {
+      //     marker.setMap(null);
+      //   });
     }
   }
 

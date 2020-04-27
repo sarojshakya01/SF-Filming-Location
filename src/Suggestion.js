@@ -10,7 +10,7 @@ const Suggestion = (props) => {
     return null;
   } else {
     return (
-      <div className="search-container search-logo">
+      <div id="suggestion" className="search-container search-logo">
         {suggestions.map((item, index) => (
           <div
             key={index}

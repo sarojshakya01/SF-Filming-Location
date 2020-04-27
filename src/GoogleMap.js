@@ -16,11 +16,11 @@ class GoogleMap extends React.Component {
     this.center = SanFrancisco;
     this.zoom = 12;
     this.activeMarkers = [];
-    this.state = {
-      activeMarkers: [],
-      movieLocationInfo: [],
-    };
   }
+
+  componentDidMount = () => {
+    // this.zoom = 13;
+  };
 
   onGoogleApiLoaded = ({ map, maps }) => {
     this.map = map;
@@ -32,9 +32,12 @@ class GoogleMap extends React.Component {
     this.activeMarkers.push(data);
   };
 
-  selectLocation = (data) => {
-    this.setState({ movieLocationInfo: data });
-  };
+  removeMarkers() {
+    for (let i = 0; i < this.activeMarkers.length; i++) {
+      this.activeMarkers[i].setMap(null);
+      this.activeMarkers.splice(i);
+    }
+  }
 
   render() {
     return (
@@ -47,21 +50,21 @@ class GoogleMap extends React.Component {
               defaultCenter={this.center}
               defaultZoom={this.zoom}
             />
-            {this.props.movie[0] === undefined ? null : (
-              <>
-                <Marker
-                  key={0}
-                  map={this.map}
-                  maps={this.maps}
-                  infoWindow={this.infoWindow}
-                  movieName={this.props.movie}
-                  data={this.props.data}
-                  activeMarkers={this.activeMarkers}
-                  collectActiveMarkers={this.collectActiveMarkers}
-                  //   selectLocation={this.selectLocation}
-                />
-              </>
-            )}
+            {this.props.movie[0] === undefined
+              ? null
+              : this.props.data[0].lat_lon === undefined
+              ? null
+              : this.props.data.map((data, index) => (
+                  <Marker
+                    key={index}
+                    map={this.map}
+                    maps={this.maps}
+                    infoWindow={this.infoWindow}
+                    movieName={this.props.movie}
+                    data={data}
+                    collectActiveMarkers={this.collectActiveMarkers}
+                  />
+                ))}
           </div>
         </div>
       </>
