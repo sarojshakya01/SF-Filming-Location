@@ -3,6 +3,10 @@ visit My linkedin profile [here](https://www.linkedin.com/in/saroj-shakya)
 After cloning(or downloading and extracting) the project, go to the project directory and run
 
 ### `npm start`
+for front end service start up and run 
+
+### `node server.js`
+for back end service start up from two different command windows.
 
 ### Project: SF Movies
 
